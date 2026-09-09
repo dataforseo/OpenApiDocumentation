@@ -24,8 +24,8 @@ paths:
                   - $ref: '#/components/schemas/SerpIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -4635,8 +4635,8 @@ paths:
                   - $ref: '#/components/schemas/DataforseoLabsIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -5456,8 +5456,8 @@ paths:
                 nullable: true
               example:
                 - keyword: albert einstein
-                  datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                  datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   location_code: 2840
                   language_code: en
                   limit: 10
@@ -6178,8 +6178,8 @@ paths:
                   - $ref: '#/components/schemas/DomainAnalyticsIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -6600,8 +6600,8 @@ paths:
                   - $ref: '#/components/schemas/KeywordsDataIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -8492,8 +8492,8 @@ paths:
                   - $ref: '#/components/schemas/BacklinksIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -9252,7 +9252,7 @@ paths:
                     - https://variety.com/
                     - https://stackoverflow.com/
                     - www.trustpilot.com
-                  date_from: '2026-07-22 17:42:44'
+                  date_from: '2026-08-10 14:59:30'
       responses:
         '200':
           description: Successful operation
@@ -9293,7 +9293,7 @@ paths:
                     - https://variety.com/
                     - https://stackoverflow.com/
                     - www.trustpilot.com
-                  datetime_from: 2026-42-22
+                  datetime_from: 2026-59-10
       responses:
         '200':
           description: Successful operation
@@ -11063,8 +11063,8 @@ paths:
                   - $ref: '#/components/schemas/OnPageIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -11244,7 +11244,7 @@ paths:
     post:
       tags:
         - OnPage
-      description: "‌‌\nThis endpoint returns a list of crawled pages with on-page check-ups and other metrics related to the page performance.\nUsing this function you will get page-specific data with detailed information on how well your pages are optimized for search."
+      description: "This endpoint returns a list of crawled pages with on-page check-ups and other metrics related to the page performance.\nUsing this function you will get page-specific data with detailed information on how well your pages are optimized for search.\nfor more info please visit 'https://docs.dataforseo.com/v3/on_page/pages/?bash'"
       operationId: Pages
       requestBody:
         content:
@@ -11799,7 +11799,7 @@ paths:
     post:
       tags:
         - OnPage
-      description: "‌‌\nUsing this function you will get page-specific data with detailed information on how well a particular page is optimized for organic search."
+      description: "Using this function you will get page-specific data with detailed information on how well a particular page is optimized for organic search.\nfor more info please visit 'https://docs.dataforseo.com/v3/on_page/instant_pages/?bash'"
       operationId: InstantPages
       requestBody:
         content:
@@ -12007,8 +12007,8 @@ paths:
                   - $ref: '#/components/schemas/ContentAnalysisIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -12325,8 +12325,8 @@ paths:
                   - $ref: '#/components/schemas/MerchantIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -13311,8 +13311,8 @@ paths:
                   - $ref: '#/components/schemas/AppDataIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -14363,8 +14363,8 @@ paths:
                   - $ref: '#/components/schemas/BusinessDataIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-08-01 17:42:44'
-                  datetime_to: '2026-08-11 17:42:44'
+                - datetime_from: '2026-08-20 14:59:30'
+                  datetime_to: '2026-08-30 14:59:30'
                   limit: 10
                   include_metadata: true
       responses:
@@ -14413,7 +14413,7 @@ paths:
     get:
       tags:
         - BusinessData
-      description: You will receive the list of locations by this API call. You can also download the full list of supported locations in the CSV format (last updated 2026-08-06).
+      description: You will receive the list of locations by this API call. You can also download the full list of supported locations in the CSV format (last updated 2026-09-01).
       operationId: BusinessListingsLocations
       responses:
         '200':
@@ -16561,10 +16561,9 @@ components:
       discriminator:
         propertyName: type
         mapping:
+          local_pack: '#/components/schemas/DataLabsLocalPackSerpElementItem'
           featured_snippet: '#/components/schemas/DataLabsFeaturedSnippetSerpElementItem'
           paid: '#/components/schemas/DataLabsPaidSerpElementItem'
-          organic: '#/components/schemas/DataLabsOrganicSerpElementItem'
-          local_pack: '#/components/schemas/DataLabsLocalPackSerpElementItem'
           answer_box: '#/components/schemas/DataLabsAnswerBoxSerpElementItem'
           carousel: '#/components/schemas/DataLabsCarouselSerpElementItem'
           multi_carousel: '#/components/schemas/DataLabsMultiCarouselSerpElementItem'
@@ -16576,6 +16575,7 @@ components:
           knowledge_graph: '#/components/schemas/DataLabsKnowledgeGraphSerpElementItem'
           hotels_pack: '#/components/schemas/DataLabsHotelsPackSerpElementItem'
           map: '#/components/schemas/DataLabsMapSerpElementItem'
+          organic: '#/components/schemas/DataLabsOrganicSerpElementItem'
           people_also_ask: '#/components/schemas/DataLabsPeopleAlsoAskSerpElementItem'
           related_searches: '#/components/schemas/DataLabsRelatedSearchesSerpElementItem'
           people_also_search: '#/components/schemas/DataLabsPeopleAlsoSearchSerpElementItem'
@@ -16890,69 +16890,69 @@ components:
           nullable: true
         status_code:
           type: integer
-          description: <i>general status code</i><br>you can find the full list of the response codes <a href="/v3/appendix/errors">here</a><br><strong>Note:</strong> we strongly recommend designing a necessary system for handling related exceptional or error conditions
+          description: 'general status codeyou can find the full list of the response codes hereNote: we strongly recommend designing a necessary system for handling related exceptional or error conditions'
           nullable: true
         location:
           type: string
-          description: <em>location header</em><br>indicates the URL to redirect a page to
+          description: location headerindicates the URL to redirect a page to
           nullable: true
         url:
           type: string
-          description: <em>page URL</em>
+          description: page URL
           nullable: true
         resource_errors:
           type: object
           oneOf:
             - $ref: '#/components/schemas/OnPageResourceIssueInfo'
-          description: <em>resource errors and warnings</em>
+          description: resource errors and warnings
           nullable: true
         size:
           type: integer
-          description: <em>resource size</em><br>indicates the size of a given page measured in bytes
+          description: resource sizeindicates the size of a given page measured in bytes
           nullable: true
         encoded_size:
           type: integer
-          description: <em>page size after encoding</em><br>indicates the size of the encoded page measured in bytes
+          description: page size after encodingindicates the size of the encoded page measured in bytes
           nullable: true
         total_transfer_size:
           type: integer
-          description: <em>compressed page size</em><br>indicates the compressed size of a given page
+          description: compressed page sizeindicates the compressed size of a given page
           format: int64
           nullable: true
         fetch_time:
           type: string
-          description: '<em>date and time when a resource was fetched</em><br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br><code class="long-string">2019-11-15 12:57:46 +00:00</code>'
+          description: 'date and time when a resource was fetchedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00'
           nullable: true
         cache_control:
           type: object
           oneOf:
             - $ref: '#/components/schemas/CacheControl'
-          description: <em>instructions for caching</em>
+          description: instructions for caching
           nullable: true
         checks:
           type: object
           additionalProperties:
             type: boolean
             nullable: true
-          description: <em>website checks</em><br>on-page check-ups related to the page
+          description: website checkson-page check-ups related to the page
           nullable: true
         content_encoding:
           type: string
-          description: <em>type of encoding</em>
+          description: type of encoding
           nullable: true
         media_type:
           type: string
-          description: <em>types of media used to display a page</em>
+          description: types of media used to display a page
           nullable: true
         server:
           type: string
-          description: <em>server version</em>
+          description: server version
           nullable: true
         last_modified:
           type: object
           oneOf:
             - $ref: '#/components/schemas/LastModified'
-          description: '<em>contains data on changes related to the resource</em><br>if there is no data, the value will be <code>null</code>'
+          description: 'contains data on changes related to the resourceif there is no data, the value will be null'
           nullable: true
       additionalProperties: false
       discriminator:
@@ -17155,7 +17155,7 @@ components:
         mapping:
           domain: '#/components/schemas/AiOptimizationLLmMentionsDomainElement'
           keyword: '#/components/schemas/AiOptimizationLLmMentionsKeywordElement'
-    DataLabsVisualStoriesSerpElementItem:
+    DataLabsPodcastsSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -17169,7 +17169,7 @@ components:
               items:
                 type: object
                 oneOf:
-                  - $ref: '#/components/schemas/AmazonLabelElement'
+                  - $ref: '#/components/schemas/PodcastsElement'
                 nullable: true
               description: historical SERPs and related data found in the database
               nullable: true
@@ -17444,7 +17444,7 @@ components:
           description: related search terms that appear in the result
           nullable: true
       deprecated: true
-    DataLabsPodcastsSerpElementItem:
+    DataLabsMentionCarouselSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -17453,12 +17453,16 @@ components:
           nullable: true
         - type: object
           properties:
+            title:
+              type: string
+              description: title of the result in SERP
+              nullable: true
             items:
               type: array
               items:
                 type: object
                 oneOf:
-                  - $ref: '#/components/schemas/PodcastsElement'
+                  - $ref: '#/components/schemas/MentionCarouselElement'
                 nullable: true
               description: historical SERPs and related data found in the database
               nullable: true
@@ -17712,29 +17716,6 @@ components:
           description: likes count
           format: int64
           nullable: true
-    DataLabsMentionCarouselSerpElementItem:
-      type: object
-      allOf:
-        - type: object
-          oneOf:
-            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
-          nullable: true
-        - type: object
-          properties:
-            title:
-              type: string
-              description: title of the result in SERP
-              nullable: true
-            items:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/MentionCarouselElement'
-                nullable: true
-              description: historical SERPs and related data found in the database
-              nullable: true
-      deprecated: true
     CoursesSerpElementItem:
       type: object
       allOf:
@@ -17773,27 +17754,6 @@ components:
               description: contains arrays of elements available in the list
               nullable: true
       deprecated: true
-    TopDomainInfo:
-      properties:
-        domain:
-          type: string
-          nullable: true
-        count:
-          type: integer
-          format: int64
-          nullable: true
-    ContentAnalysisCategoriesInfo:
-      properties:
-        category:
-          type: array
-          items:
-            type: integer
-            nullable: true
-          nullable: true
-        count:
-          type: integer
-          format: int64
-          nullable: true
     ExploreBrandsSerpElementItem:
       type: object
       allOf:
@@ -17825,6 +17785,27 @@ components:
               description: contains arrays of elements available in the list
               nullable: true
       deprecated: true
+    TopDomainInfo:
+      properties:
+        domain:
+          type: string
+          nullable: true
+        count:
+          type: integer
+          format: int64
+          nullable: true
+    ContentAnalysisCategoriesInfo:
+      properties:
+        category:
+          type: array
+          items:
+            type: integer
+            nullable: true
+          nullable: true
+        count:
+          type: integer
+          format: int64
+          nullable: true
     FoundOnWebSerpElementItem:
       type: object
       allOf:
@@ -17859,6 +17840,33 @@ components:
                 type: object
                 oneOf:
                   - $ref: '#/components/schemas/FoundOnWebElement'
+                nullable: true
+              description: contains arrays of elements available in the list
+              nullable: true
+      deprecated: true
+    VisualStoriesSerpElementItem:
+      type: object
+      allOf:
+        - type: object
+          oneOf:
+            - $ref: '#/components/schemas/BaseSerpApiElementItem'
+          nullable: true
+        - type: object
+          properties:
+            rank_group:
+              type: integer
+              description: "group rank in SERP\nposition within a group of elements with identical type values;\npositions of elements with different type values are omitted from rank_group;\nalways equals 0 for desktop"
+              nullable: true
+            rank_absolute:
+              type: integer
+              description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
+              nullable: true
+            items:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AmazonLabelElement'
                 nullable: true
               description: contains arrays of elements available in the list
               nullable: true
@@ -18280,7 +18288,7 @@ components:
             nullable: true
           description: "monthly search volume rates\narray of objects with search volume rates in a certain month of a year"
           nullable: true
-    VisualStoriesSerpElementItem:
+    PodcastsSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -18302,7 +18310,7 @@ components:
               items:
                 type: object
                 oneOf:
-                  - $ref: '#/components/schemas/AmazonLabelElement'
+                  - $ref: '#/components/schemas/PodcastsElement'
                 nullable: true
               description: contains arrays of elements available in the list
               nullable: true
@@ -18395,7 +18403,7 @@ components:
           type: boolean
           description: content of the row cells of the header
           nullable: true
-    ContentRatingInfo:
+    ContententRatingInfo:
       type: object
       properties:
         name:
@@ -18403,20 +18411,24 @@ components:
           description: "rating name\nhere you can find the following elements: Max5, Percents, CustomMax"
           nullable: true
         rating_value:
-          type: string
+          type: number
           description: the value of the rating
+          format: double
           nullable: true
         rating_count:
-          type: string
+          type: integer
           description: number of votes
+          format: int64
           nullable: true
         max_rating_value:
-          type: string
+          type: number
           description: maximum value for the rating name
+          format: double
           nullable: true
         relative_rating:
-          type: string
+          type: number
           description: relative rating
+          format: double
           nullable: true
     ContentOfferInfo:
       type: object
@@ -18444,7 +18456,7 @@ components:
         rating:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/ContentRatingInfo'
+            - $ref: '#/components/schemas/ContententRatingInfo'
           description: "product’s rating\ncontains information about the rating a customer has given to the product"
           nullable: true
         title:
@@ -18498,8 +18510,8 @@ components:
           description: '<em>include task metadata in the response</em><br>optional field<br>if set to <code>true</code>, the <code>metadata</code> object containing parameters specified in the POST request will be provided in the response;<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     SerpIdListResultInfo:
@@ -27898,7 +27910,7 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/SpellInfo'
-          description: '<em>autocorrection of the search engine</em><br>if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection'
+          description: "autocorrection of the search engine\nif the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection"
           nullable: true
         refinement_chips:
           type: object
@@ -42506,8 +42518,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     DataforseoLabsIdListResultInfo:
@@ -45273,7 +45285,7 @@ components:
           type: integer
           description: <em>average main domain rank</em><br>            learn more about the metric and its calculation formula in <a href="https://dataforseo.com/help-center/what_is_rank_in_backlinks_api" rel="noopener noreferrer" target="_blank">this help center article</a>
           nullable: true
-    DataLabsFeaturedSnippetSerpElementItem:
+    DataLabsLocalPackSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -45282,31 +45294,35 @@ components:
           nullable: true
         - type: object
           properties:
-            domain:
-              type: string
-              description: <em>subdomain in SERP</em>
-              nullable: true
             title:
               type: string
               description: <em>title of the result in SERP</em>
-              nullable: true
-            featured_title:
-              type: string
-              description: <em>the title of the featured snippets source page</em>
               nullable: true
             description:
               type: string
               description: <em>description of the results element in SERP</em>
               nullable: true
+            domain:
+              type: string
+              description: <em>subdomain in SERP</em>
+              nullable: true
+            phone:
+              type: string
+              description: <em>phone number</em>
+              nullable: true
             url:
               type: string
               description: <em> relevant URL in SERP</em>
               nullable: true
-            table:
+            is_paid:
+              type: boolean
+              description: <em>indicates whether the element is an ad</em>
+              nullable: true
+            rating:
               type: object
               oneOf:
-                - $ref: '#/components/schemas/Table'
-              description: '<em>results table</em><br>            if there are none, equals <code>null</code>'
+                - $ref: '#/components/schemas/RatingInfo'
+              description: <em>the item's rating </em><br>            the popularity rate based on reviews and displayed in SERP
               nullable: true
             main_domain:
               type: string
@@ -45425,117 +45441,6 @@ components:
             - $ref: '#/components/schemas/RankedSerpElement'
           description: <em>contains data on the domain's SERP element found for the returned <code>keyword</code></em>
           nullable: true
-    DataLabsPaidSerpElementItem:
-      type: object
-      allOf:
-        - type: object
-          oneOf:
-            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
-          nullable: true
-        - type: object
-          properties:
-            title:
-              type: string
-              description: <em>title of the result in SERP</em>
-              nullable: true
-            domain:
-              type: string
-              description: <em>subdomain in SERP</em>
-              nullable: true
-            description:
-              type: string
-              description: <em>description of the results element in SERP</em>
-              nullable: true
-            breadcrumb:
-              type: string
-              description: <em>breadcrumb in SERP</em>
-              nullable: true
-            url:
-              type: string
-              description: <em> relevant URL in SERP</em>
-              nullable: true
-            highlighted:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: <em>words highlighted in bold within the results <code>description</code></em>
-              nullable: true
-            extra:
-              type: object
-              additionalProperties:
-                type: string
-                nullable: true
-              nullable: true
-            description_rows:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: '<em>extended description</em><br>            if there is none, equals <code>null</code>'
-              nullable: true
-            links:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/AdLinkElement'
-                nullable: true
-              description: '<em>sitelinks</em><br>            the links shown below some of Google''s search results<br>            if there are none, equals <code>null</code>'
-              nullable: true
-            main_domain:
-              type: string
-              description: <em>primary domain name in SERP</em>
-              nullable: true
-            relative_url:
-              type: string
-              description: <em>URL in SERP that does not specify the HTTPs protocol and domain name</em>
-              nullable: true
-            etv:
-              type: number
-              description: <em>estimated traffic volume</em><br>            estimated organic monthly traffic to the domain or webpage;<br>            calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;<br>            learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-is-etv-calculated" rel="noopener noreferrer" target="_blank">this help center article</a>
-              nullable: true
-            estimated_paid_traffic_cost:
-              type: number
-              description: <em>estimated cost of converting organic search traffic into paid</em><br>            represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;<br>            the metric is calculated as the product of organic <code>etv</code> and paid <code>cpc</code> values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;<br>            learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-is-traffic-cost-calculated" rel="noopener noreferrer" target="_blank">this help center article</a>
-              nullable: true
-            clickstream_etv:
-              type: number
-              description: '<em>estimated traffic volume based on clickstream data</em><br>            calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;<br>            to retrieve results for this field, the parameter <code>include_clickstream_data</code> must be set to <code>true</code>;<br>            learn more about how the metric is calculated in this <a href="https://dataforseo.com/help-center/whats-clickstream-estimated-traffic-volume-and-how-is-it-calculated" rel="noopener noreferrer" target="_blank">help center article</a>'
-              format: double
-              nullable: true
-            rank_changes:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RankChanges'
-              properties:
-                previous_rank_absolute:
-                  type: number
-                  description: "previous absolute rank in SERP\nindicates previous rank of the element in Google SERP;\nif this element is new, the value will be null"
-                  nullable: true
-                is_new:
-                  type: boolean
-                  description: "element was previously present in SERP\nif the value is true, previously collected SERP didn’t contain this element"
-                is_up:
-                  type: boolean
-                  description: "rank of this element went up\nif the value is true, position of the element in SERP is higher compared to the previous check"
-                is_down:
-                  type: boolean
-                  description: "rank of this element went down\nif the value is true, position of the element in SERP is lower compared to the previous check"
-              description: <em>changes in rankings</em><br>            contains information about the ranking changes of the SERP element since the <code>previous_updated_time</code>
-              nullable: true
-            backlinks_info:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/BacklinksInfo'
-              description: <em>backlinks information for the relevant page URL</em>
-              nullable: true
-            rank_info:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RankInfo'
-              description: <em>page and domain rank information</em>
-              nullable: true
     DataforseoLabsGoogleRankedKeywordsLiveResultInfo:
       type: object
       properties:
@@ -46071,7 +45976,7 @@ components:
           location_code: 2840
           include_serp_info: true
           limit: 3
-    DataLabsOrganicSerpElementItem:
+    DataLabsFeaturedSnippetSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -46088,78 +45993,24 @@ components:
               type: string
               description: <em>title of the result in SERP</em>
               nullable: true
-            url:
+            featured_title:
               type: string
-              description: <em> relevant URL in SERP</em>
-              nullable: true
-            breadcrumb:
-              type: string
-              description: <em>breadcrumb in SERP</em>
-              nullable: true
-            website_name:
-              type: string
-              nullable: true
-            is_image:
-              type: boolean
-              description: <em>indicates whether the element contains an <code class="prettyprint">image</code></em>
-              nullable: true
-            is_video:
-              type: boolean
-              description: <em>indicates whether the element contains a <code class="prettyprint">video</code></em>
-              nullable: true
-            is_featured_snippet:
-              type: boolean
-              description: <em>indicates whether the element is a <code class="prettyprint">featured_snippet</code></em>
-              nullable: true
-            is_malicious:
-              type: boolean
-              description: <em>indicates whether the element is marked as malicious</em>
+              description: <em>the title of the featured snippets source page</em>
               nullable: true
             description:
               type: string
               description: <em>description of the results element in SERP</em>
               nullable: true
-            pre_snippet:
+            url:
               type: string
-              description: <em>includes additional information appended before the result description in SERP</em>
+              description: <em> relevant URL in SERP</em>
               nullable: true
-            extended_snippet:
-              type: string
-              description: <em>includes additional information appended after the result description in SERP</em>
-              nullable: true
-            amp_version:
-              type: boolean
-              description: <em>Accelerated Mobile Pages</em><br>            indicates whether an item has the Accelerated Mobile Page (AMP) version
-              nullable: true
-            rating:
+            table:
               type: object
               oneOf:
-                - $ref: '#/components/schemas/RatingInfo'
-              description: <em>the item's rating </em><br>            the popularity rate based on reviews and displayed in SERP
+                - $ref: '#/components/schemas/Table'
+              description: '<em>results table</em><br>            if there are none, equals <code>null</code>'
               nullable: true
-            highlighted:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: <em>words highlighted in bold within the results <code>description</code></em>
-              nullable: true
-            links:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/LinkElement'
-                nullable: true
-              description: '<em>sitelinks</em><br>            the links shown below some of Google''s search results<br>            if there are none, equals <code>null</code>'
-              nullable: true
-            about_this_result:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/AboutThisResultElement'
-              description: <em>contains information from the 'About this result' panel</em><br>            <a href="https://blog.google/products/search/learn-more-and-get-more-from-search/">'About this result' panel</a> provides additional context about why Google returned this result for the given query;<br>            this feature appears after clicking on the three dots next to most results
-              nullable: true
-              deprecated: true
             main_domain:
               type: string
               description: <em>primary domain name in SERP</em>
@@ -46238,7 +46089,7 @@ components:
             - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
           description: <em>contains data on the second domain's SERP element found for the returned <code>keyword</code></em><br>            the list of supported SERP elements can be found below
           nullable: true
-    DataLabsLocalPackSerpElementItem:
+    DataLabsPaidSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -46251,31 +46102,50 @@ components:
               type: string
               description: <em>title of the result in SERP</em>
               nullable: true
-            description:
-              type: string
-              description: <em>description of the results element in SERP</em>
-              nullable: true
             domain:
               type: string
               description: <em>subdomain in SERP</em>
               nullable: true
-            phone:
+            description:
               type: string
-              description: <em>phone number</em>
+              description: <em>description of the results element in SERP</em>
+              nullable: true
+            breadcrumb:
+              type: string
+              description: <em>breadcrumb in SERP</em>
               nullable: true
             url:
               type: string
               description: <em> relevant URL in SERP</em>
               nullable: true
-            is_paid:
-              type: boolean
-              description: <em>indicates whether the element is an ad</em>
+            highlighted:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: <em>words highlighted in bold within the results <code>description</code></em>
               nullable: true
-            rating:
+            extra:
               type: object
-              oneOf:
-                - $ref: '#/components/schemas/RatingInfo'
-              description: <em>the item's rating </em><br>            the popularity rate based on reviews and displayed in SERP
+              additionalProperties:
+                type: string
+                nullable: true
+              nullable: true
+            description_rows:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: '<em>extended description</em><br>            if there is none, equals <code>null</code>'
+              nullable: true
+            links:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AdLinkElement'
+                nullable: true
+              description: '<em>sitelinks</em><br>            the links shown below some of Google''s search results<br>            if there are none, equals <code>null</code>'
               nullable: true
             main_domain:
               type: string
@@ -46895,8 +46765,8 @@ components:
           nullable: true
       example:
         - keyword: albert einstein
-          datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+          datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           location_code: 2840
           language_code: en
           limit: 10
@@ -47460,7 +47330,149 @@ components:
               type: string
               description: <em> relevant URL in SERP</em>
               nullable: true
-    PodcastsSerpElementItem:
+    DataLabsOrganicSerpElementItem:
+      type: object
+      allOf:
+        - type: object
+          oneOf:
+            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
+          nullable: true
+        - type: object
+          properties:
+            domain:
+              type: string
+              description: <em>domain in SERP</em>
+              nullable: true
+            title:
+              type: string
+              description: <em>title of the result in SERP</em>
+              nullable: true
+            url:
+              type: string
+              description: <em> relevant URL in SERP</em>
+              nullable: true
+            breadcrumb:
+              type: string
+              description: <em>breadcrumb in SERP</em>
+              nullable: true
+            website_name:
+              type: string
+              description: name of the website in SERP
+              nullable: true
+            is_image:
+              type: boolean
+              description: <em>indicates whether the element contains an <code class="prettyprint">image</code></em>
+              nullable: true
+            is_video:
+              type: boolean
+              description: <em>indicates whether the element contains a <code class="prettyprint">video</code></em>
+              nullable: true
+            is_featured_snippet:
+              type: boolean
+              description: <em>indicates whether the element is a <code class="prettyprint">featured_snippet</code></em>
+              nullable: true
+            is_malicious:
+              type: boolean
+              description: <em>indicates whether the element is marked as malicious</em>
+              nullable: true
+            description:
+              type: string
+              description: <em>description of the results element in SERP</em>
+              nullable: true
+            pre_snippet:
+              type: string
+              description: <em>includes additional information appended before the result description in SERP</em>
+              nullable: true
+            extended_snippet:
+              type: string
+              description: <em>includes additional information appended after the result description in SERP</em>
+              nullable: true
+            amp_version:
+              type: boolean
+              description: <em>Accelerated Mobile Pages</em><br>            indicates whether an item has the Accelerated Mobile Page (AMP) version
+              nullable: true
+            rating:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RatingInfo'
+              description: <em>the item's rating </em><br>            the popularity rate based on reviews and displayed in SERP
+              nullable: true
+            highlighted:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: <em>words highlighted in bold within the results <code>description</code></em>
+              nullable: true
+            links:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/LinkElement'
+                nullable: true
+              description: '<em>sitelinks</em><br>            the links shown below some of Google''s search results<br>            if there are none, equals <code>null</code>'
+              nullable: true
+            about_this_result:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/AboutThisResultElement'
+              description: <em>contains information from the 'About this result' panel</em><br>            <a href="https://blog.google/products/search/learn-more-and-get-more-from-search/">'About this result' panel</a> provides additional context about why Google returned this result for the given query;<br>            this feature appears after clicking on the three dots next to most results
+              nullable: true
+              deprecated: true
+            main_domain:
+              type: string
+              description: <em>primary domain name in SERP</em>
+              nullable: true
+            relative_url:
+              type: string
+              description: <em>URL in SERP that does not specify the HTTPs protocol and domain name</em>
+              nullable: true
+            etv:
+              type: number
+              description: <em>estimated traffic volume</em><br>            estimated organic monthly traffic a featured URL delivers to the domain<br>            calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword<br>            learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-is-etv-calculated" rel="noopener noreferrer" target="_blank">this help center article</a>
+              nullable: true
+            estimated_paid_traffic_cost:
+              type: number
+              description: <em>estimated cost of converting organic search traffic into paid</em><br>            represents the estimated monthly cost of running ads for the returned keyword<br>            the metric is calculated as the product of organic <code>etv</code> and paid <code>cpc</code> values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search<br>            learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-is-traffic-cost-calculated" rel="noopener noreferrer" target="_blank">this help center article</a>
+              nullable: true
+            clickstream_etv:
+              type: number
+              format: double
+              nullable: true
+            rank_changes:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RankChanges'
+              properties:
+                previous_rank_absolute:
+                  type: number
+                  description: "previous absolute rank in SERP\nindicates previous rank of the element in Google SERP;\nif this element is new, the value will be null"
+                  nullable: true
+                is_new:
+                  type: boolean
+                  description: "element was previously present in SERP\nif the value is true, previously collected SERP didn’t contain this element"
+                is_up:
+                  type: boolean
+                  description: "rank of this element went up\nif the value is true, position of the element in SERP is higher compared to the previous check"
+                is_down:
+                  type: boolean
+                  description: "rank of this element went down\nif the value is true, position of the element in SERP is lower compared to the previous check"
+              description: <em>changes in rankings</em><br>            ranking changes of the SERP element compared to the preceding month;<br>            <strong>Note:</strong> the changes are calculated even if the preceding month is not included in a POST request
+              nullable: true
+            backlinks_info:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/BacklinksInfo'
+              description: <em>backlinks information for the ranked website</em>
+              nullable: true
+            rank_info:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RankInfo'
+              description: <em>page and domain rank information</em>
+              nullable: true
+    MentionCarouselSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -47477,12 +47489,16 @@ components:
               type: integer
               description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
               nullable: true
+            title:
+              type: string
+              description: title of a given link element
+              nullable: true
             items:
               type: array
               items:
                 type: object
                 oneOf:
-                  - $ref: '#/components/schemas/PodcastsElement'
+                  - $ref: '#/components/schemas/MentionCarouselElement'
                 nullable: true
               description: contains arrays of elements available in the list
               nullable: true
@@ -49213,7 +49229,7 @@ components:
           location_code: 2840
           limit: 5
           include_seed_keyword: true
-    MentionCarouselSerpElementItem:
+    GooglePostsSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -49230,18 +49246,17 @@ components:
               type: integer
               description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
               nullable: true
-            title:
+            posts_id:
               type: string
-              description: title of a given link element
+              description: the identifier of the google_posts feature
               nullable: true
-            items:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/MentionCarouselElement'
-                nullable: true
-              description: contains arrays of elements available in the list
+            feature:
+              type: string
+              description: the additional feature of the review
+              nullable: true
+            cid:
+              type: string
+              description: google-defined client id
               nullable: true
       deprecated: true
     DataforseoLabsAmazonRelatedKeywordsLiveItem:
@@ -51297,8 +51312,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     DomainAnalyticsIdListResultInfo:
@@ -52870,8 +52885,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     KeywordsDataIdListResultInfo:
@@ -55364,36 +55379,6 @@ components:
           keywords:
             - rugby
             - cricket
-    GooglePostsSerpElementItem:
-      type: object
-      allOf:
-        - type: object
-          oneOf:
-            - $ref: '#/components/schemas/BaseSerpApiElementItem'
-          nullable: true
-        - type: object
-          properties:
-            rank_group:
-              type: integer
-              description: "group rank in SERP\nposition within a group of elements with identical type values;\npositions of elements with different type values are omitted from rank_group;\nalways equals 0 for desktop"
-              nullable: true
-            rank_absolute:
-              type: integer
-              description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
-              nullable: true
-            posts_id:
-              type: string
-              description: the identifier of the google_posts feature
-              nullable: true
-            feature:
-              type: string
-              description: the additional feature of the review
-              nullable: true
-            cid:
-              type: string
-              description: google-defined client id
-              nullable: true
-      deprecated: true
     CoursesElement:
       type: object
       properties:
@@ -55434,6 +55419,37 @@ components:
           oneOf:
             - $ref: '#/components/schemas/RatingInfo'
           description: "the element’s rating \nthe popularity rate based on reviews and displayed in SERP"
+          nullable: true
+    ExploreBrandsElement:
+      type: object
+      properties:
+        type:
+          type: string
+          description: type of element
+          nullable: true
+        title:
+          type: string
+          description: title of the row
+          nullable: true
+        url:
+          type: string
+          description: URL of element
+          nullable: true
+        domain:
+          type: string
+          description: domain where a link points
+          nullable: true
+        description:
+          type: string
+          description: description of the results element in SERP
+          nullable: true
+        image_url:
+          type: string
+          description: URL of the image
+          nullable: true
+        xpath:
+          type: string
+          description: the XPath of the element
           nullable: true
     KeywordsDataGoogleTrendsExploreLiveResultInfo:
       type: object
@@ -59203,8 +59219,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     BacklinksIdListResultInfo:
@@ -63387,7 +63403,7 @@ components:
             - https://variety.com/
             - https://stackoverflow.com/
             - www.trustpilot.com
-          date_from: '2026-07-22 17:42:44'
+          date_from: '2026-08-10 14:59:30'
     BacklinksBulkNewLostBacklinksLiveItem:
       type: object
       properties:
@@ -63480,7 +63496,7 @@ components:
             - https://variety.com/
             - https://stackoverflow.com/
             - www.trustpilot.com
-          datetime_from: 2026-42-22
+          datetime_from: 2026-59-10
     BacklinksBulkNewLostReferringDomainsLiveItem:
       type: object
       properties:
@@ -63985,41 +64001,6 @@ components:
                 nullable: true
               description: <em>array of tasks</em>
               nullable: true
-    AiOptimizationChatGptLlmScraperTasksReadyResultInfo:
-      type: object
-      properties:
-        id:
-          type: string
-          description: <em>task identifier of the completed task</em><br><strong>unique task identifier in our system in the <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> format</strong>
-          nullable: true
-        se:
-          type: string
-          description: <em>search engine specified when setting the task</em>
-          nullable: true
-        se_type:
-          type: string
-          description: '<em>type of search engine</em><br>example: <code>{{low_se_type_under}}</code>'
-          nullable: true
-        date_posted:
-          type: string
-          description: <em>date when the task was posted (in the UTC format)</em>
-          nullable: true
-        tag:
-          type: string
-          description: <em>user-defined task identifier</em>
-          nullable: true
-        endpoint_regular:
-          type: string
-          description: '<em>URL for collecting the results of the Regular task</em><br>if the Regular function is not supported in the specified endpoint, the value will be <code>null</code>'
-          nullable: true
-        endpoint_advanced:
-          type: string
-          description: '<em>URL for collecting the results of the Advanced task</em><br>if the Advanced function is not supported in the specified endpoint, the value will be <code>null</code>'
-          nullable: true
-        endpoint_html:
-          type: string
-          description: '<em>URL for collecting the results of the HTML task</em><br>if the HTML function is not supported in the specified endpoint, the value will be <code>null</code>'
-          nullable: true
     AiOptimizationChatGptLlmScraperTasksReadyTaskInfo:
       type: object
       allOf:
@@ -64027,12 +64008,7 @@ components:
         - type: object
           properties:
             result:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/AiOptimizationChatGptLlmScraperTasksReadyResultInfo'
-                nullable: true
+              type: object
               description: <em>array of results</em>
               nullable: true
     AiOptimizationChatGptLlmScraperTasksReadyResponseInfo:
@@ -64139,7 +64115,7 @@ components:
           type: object
           description: <em> array of URLs and domains relevant to the brand</em>
           nullable: true
-    ExploreBrandsElement:
+    FoundOnWebElement:
       type: object
       properties:
         type:
@@ -64150,25 +64126,15 @@ components:
           type: string
           description: title of the row
           nullable: true
-        url:
+        subtitle:
           type: string
-          description: URL of element
+          description: subtitle of the element
           nullable: true
-        domain:
-          type: string
-          description: domain where a link points
-          nullable: true
-        description:
-          type: string
-          description: description of the results element in SERP
-          nullable: true
-        image_url:
-          type: string
-          description: URL of the image
-          nullable: true
-        xpath:
-          type: string
-          description: the XPath of the element
+        image:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AiModeImagesElementInfo'
+          description: image of the element
           nullable: true
     ChatGptTextElementItem:
       type: object
@@ -70490,8 +70456,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     OnPageIdListResultInfo:
@@ -71270,35 +71236,35 @@ components:
       properties:
         id:
           type: string
-          description: <em>ID of the task</em><br><strong>required field</strong><br>you can get this ID in the response of the <a href="https://docs.dataforseo.com/v3/on_page/task_post/">Task POST</a> endpoint<br>example:<br>"07131248-1535-0216-1000-17384017ad04"
+          description: ID of the taskrequired fieldyou can get this ID in the response of the Task POST endpointexample:"07131248-1535-0216-1000-17384017ad04"
         limit:
           type: integer
-          description: '<em>the maximum number of returned pages</em><br>optional field<br>default value: <code>100</code><br>maximum value: <code>1000</code>'
+          description: 'the maximum number of returned pagesoptional fielddefault value: 100maximum value: 1000'
           nullable: true
         offset:
           type: integer
-          description: '<em>offset in the results array of returned pages</em><br>optional field<br>default value: <code>0</code><br>maximum value: <code>2000000</code><br>if you specify the <code>10</code> value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages'
+          description: 'offset in the results array of returned pagesoptional fielddefault value: 0maximum value: 2000000if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages'
           nullable: true
         filters:
           type: array
           items:
             type: object
             nullable: true
-          description: '<em>array of results filtering parameters</em><br>optional field<br><strong>you can add several filters at once (8 filters maximum)</strong><br>you should set a logical operator <code>and</code>, <code>or</code> between the conditions<br>the following operators are supported:<br><code>regex</code>, <code>not_regex</code>, <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>, <code>&gt;=</code>, <code>=</code>, <code>&lt;&gt;</code>, <code>in</code>, <code>not_in</code>, <code>like</code>, <code>not_like</code><br>you can use the <code>%</code> operator with <code>like</code> and <code>not_like</code> to match any string of zero or more characters<br>example:<br><code>["meta.external_links_count","&lt;=",50]</code><code>["url","like","https://dataforseo.com/apis/dataforseo-labs-api"]</code><code>[["checks.high_waiting_time","=",false],<br>"and",["resource_type","=","html"]]</code><code>[["page_timing.duration_time","&lt;",100],"and",[["checks.large_page_size","=",false],"or",["checks.high_waiting_time","=",false]]]</code>The full list of possible filters is available <a href="/v3/on_page/filters_and_thresholds/?bash" target="_blank" rel="noopener noreferrer">by this link.</a>'
+          description: 'array of results filtering parametersoptional fieldyou can add several filters at once (8 filters maximum)you should set a logical operator and, or between the conditionsthe following operators are supported:regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_likeyou can use the % operator with like and not_like to match any string of zero or more charactersexample:["meta.external_links_count","<=",50]["url","like","https://dataforseo.com/apis/dataforseo-labs-api"][["checks.high_waiting_time","=",false],"and",["resource_type","=","html"]][["page_timing.duration_time","<",100],"and",[["checks.large_page_size","=",false],"or",["checks.high_waiting_time","=",false]]]The full list of possible filters is available by this link.'
           nullable: true
         order_by:
           type: array
           items:
             type: string
-          description: '<em>results sorting rules</em><br>optional field<br>you can use the same values as in the <code>filters</code> array to sort the results<br>possible sorting types:<br><code>asc</code> - results will be sorted in the ascending order<br><code>desc</code> - results will be sorted in the descending order<br>you should use a comma to set up a sorting type<br>example:<br><code>["meta.external_links_count,desc"]</code><br><strong>note that you can set no more than three sorting rules in a single request</strong><br>you should use a comma to separate several sorting rules<br>example:<br><code>["page_timing.dom_complete,asc","size,desc"]</code>'
+          description: 'results sorting rulesoptional fieldyou can use the same values as in the filters array to sort the resultspossible sorting types:asc - results will be sorted in the ascending orderdesc - results will be sorted in the descending orderyou should use a comma to set up a sorting typeexample:["meta.external_links_count,desc"]note that you can set no more than three sorting rules in a single requestyou should use a comma to separate several sorting rulesexample:["page_timing.dom_complete,asc","size,desc"]'
           nullable: true
         search_after_token:
           type: string
-          description: '<em>token for subsequent requests</em><br>optional field<br>provided in the identical filed of the response to each request;<br>use this parameter to avoid timeouts while trying to obtain over <code>20,000</code> results in a single request;<br>by specifying the unique <code>search_after_token</code> value from the response array, you will get the subsequent results of the initial task;<br><code>search_after_token</code> values are unique for each subsequent task ;<br><strong>Note:</strong> if the <code>search_after_token</code> is specified in the request, all other parameters should be identical to the previous request'
+          description: 'token for subsequent requestsoptional fieldprovided in the identical filed of the response to each request;use this parameter to avoid timeouts while trying to obtain over 20,000 results in a single request;by specifying the unique search_after_token value from the response array, you will get the subsequent results of the initial task;search_after_token values are unique for each subsequent task ;Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request'
           nullable: true
         tag:
           type: string
-          description: <em>user-defined task identifier</em><br>optional field<br><em>the character limit is 255</em><br>you can use this parameter to identify the task and match it with the result<br>you will find the specified <code>tag</code> value in the <code>data</code> object of the response
+          description: user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response
           nullable: true
       example:
         - id: 07281559-0695-0216-0000-c269be8b7592
@@ -71320,7 +71286,7 @@ components:
       properties:
         plain_text_size:
           type: integer
-          description: <em>total size of the text on the page measured in bytes</em>
+          description: total size of the text on the page measured in bytes
           nullable: true
         plain_text_rate:
           type: number
@@ -71329,53 +71295,53 @@ components:
           nullable: true
         plain_text_word_count:
           type: integer
-          description: <em>number of words on the page</em>
+          description: number of words on the page
           nullable: true
         automated_readability_index:
           type: number
-          description: <em><a href="https://en.wikipedia.org/wiki/Automated_readability_index" target="_blank" rel="noopener noreferrer">Automated Readability Index</a></em>
+          description: Automated Readability Index
           nullable: true
         coleman_liau_readability_index:
           type: number
-          description: <em><a href="https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index" target="_blank" rel="noopener noreferrer">Coleman–Liau Index</a></em>
+          description: Coleman–Liau Index
           nullable: true
         dale_chall_readability_index:
           type: number
-          description: <em><a href="https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula" target="_blank" rel="noopener noreferrer">Dale–Chall Readability Index</a></em>
+          description: Dale–Chall Readability Index
           nullable: true
         flesch_kincaid_readability_index:
           type: number
-          description: <em><a href="https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests" target="_blank" rel="noopener noreferrer">Flesch–Kincaid Readability Index</a></em>
+          description: Flesch–Kincaid Readability Index
           nullable: true
         smog_readability_index:
           type: number
-          description: <em><a href="https://en.wikipedia.org/wiki/SMOG" target="_blank" rel="noopener noreferrer">SMOG Readability Index</a></em>
+          description: SMOG Readability Index
           nullable: true
         description_to_content_consistency:
           type: number
-          description: <em>consistency of the meta <code>description</code> tag with the page content</em><br>measured from 0 to 1
+          description: consistency of the meta description tag with the page contentmeasured from 0 to 1
           nullable: true
         title_to_content_consistency:
           type: number
-          description: <em>consistency of the meta <code>title</code> tag with the page content</em><br>measured from 0 to 1
+          description: consistency of the meta title tag with the page contentmeasured from 0 to 1
           nullable: true
         meta_keywords_to_content_consistency:
           type: number
-          description: <em>consistency of meta <code>keywords</code>tag with the page content</em><br>measured from 0 to 1
+          description: consistency of meta keywordstag with the page contentmeasured from 0 to 1
           nullable: true
     HunspellMisspelledInfo:
       type: object
       properties:
         word:
           type: string
-          description: <em>misspelled word</em>
+          description: misspelled word
           nullable: true
     HunspellInfo:
       type: object
       properties:
         hunspell_language_code:
           type: string
-          description: <em>spellcheck language code</em>
+          description: spellcheck language code
           nullable: true
         misspelled:
           type: array
@@ -71384,26 +71350,26 @@ components:
             oneOf:
               - $ref: '#/components/schemas/HunspellMisspelledInfo'
             nullable: true
-          description: <em>array of misspelled words</em>
+          description: array of misspelled words
           nullable: true
     PageMetaInfo:
       type: object
       properties:
         title:
           type: string
-          description: <em>page title</em>
+          description: page title
           nullable: true
         charset:
           type: integer
-          description: '<em><a href="https://en.wikipedia.org/wiki/Code_page" target="_blank" rel="noopener noreferrer">code page</a></em><br>example: <code>65001</code>'
+          description: 'code pageexample: 65001'
           nullable: true
         follow:
           type: boolean
-          description: '<em>indicates whether a page''s ''meta robots'' allows crawlers to follow the links on the page</em><br>if <code>false</code>, the page''s ''meta robots'' tag contains "nofollow" parameter instructing crawlers not to follow the links on the page'
+          description: 'indicates whether a page''s ''meta robots'' allows crawlers to follow the links on the pageif false, the page''s ''meta robots'' tag contains "nofollow" parameter instructing crawlers not to follow the links on the page'
           nullable: true
         generator:
           type: string
-          description: <em>meta tag generator</em>
+          description: meta tag generator
           nullable: true
         htags:
           type: object
@@ -71412,124 +71378,124 @@ components:
             items:
               type: string
             nullable: true
-          description: <em>HTML header tags</em>
+          description: HTML header tags
           nullable: true
         description:
           type: string
-          description: <em>content of the meta description tag</em>
+          description: content of the meta description tag
           nullable: true
         favicon:
           type: string
-          description: <em>favicon of the page</em>
+          description: favicon of the page
           nullable: true
         meta_keywords:
           type: string
-          description: <em>content of the <code>keywords</code> meta tag</em>
+          description: content of the keywords meta tag
           nullable: true
         canonical:
           type: string
-          description: <em>canonical page</em>
+          description: canonical page
           nullable: true
         internal_links_count:
           type: integer
-          description: <em>number of internal links on the page</em>
+          description: number of internal links on the page
           format: int64
           nullable: true
         external_links_count:
           type: integer
-          description: <em>number of external links on the page</em>
+          description: number of external links on the page
           format: int64
           nullable: true
         inbound_links_count:
           type: integer
-          description: <em>number of internal links pointing at the page</em>
+          description: number of internal links pointing at the page
           format: int64
           nullable: true
         images_count:
           type: integer
-          description: <em>number of images on the page</em>
+          description: number of images on the page
           format: int64
           nullable: true
         images_size:
           type: integer
-          description: <em>total size of images on the page measured in bytes</em>
+          description: total size of images on the page measured in bytes
           nullable: true
         scripts_count:
           type: integer
-          description: <em>number of scripts on the page</em>
+          description: number of scripts on the page
           format: int64
           nullable: true
         scripts_size:
           type: integer
-          description: <em>total size of scripts on the page measured in bytes</em>
+          description: total size of scripts on the page measured in bytes
           nullable: true
         stylesheets_count:
           type: integer
-          description: <em>number of stylesheets on the page</em>
+          description: number of stylesheets on the page
           format: int64
           nullable: true
         stylesheets_size:
           type: integer
-          description: <em>total size of stylesheets on the page measured in bytes</em>
+          description: total size of stylesheets on the page measured in bytes
           nullable: true
         title_length:
           type: integer
-          description: <em>length of the <code>title</code> tag in characters</em>
+          description: length of the title tag in characters
           nullable: true
         description_length:
           type: integer
-          description: <em>length of the <code>description</code> tag in characters</em>
+          description: length of the description tag in characters
           nullable: true
         render_blocking_scripts_count:
           type: integer
-          description: <em>number of scripts on the page that block page rendering</em>
+          description: number of scripts on the page that block page rendering
           format: int64
           nullable: true
         render_blocking_stylesheets_count:
           type: integer
-          description: <em>number of CSS styles on the page that block page rendering</em>
+          description: number of CSS styles on the page that block page rendering
           format: int64
           nullable: true
         cumulative_layout_shift:
           type: number
-          description: <em>Core Web Vitals metric measuring the layout stability of the page</em><br>measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. <a href="https://web.dev/cls/">Learn more.</a>
+          description: Core Web Vitals metric measuring the layout stability of the pagemeasures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more.
           nullable: true
         meta_title:
           type: string
-          description: <em>meta title of the page</em><br>meta tag in the head section of an HTML document that defines the title of a page
+          description: meta title of the pagemeta tag in the head section of an HTML document that defines the title of a page
           nullable: true
         content:
           type: object
           oneOf:
             - $ref: '#/components/schemas/HtmlContentInfo'
-          description: <em>overall information about content of the page</em>
+          description: overall information about content of the page
           nullable: true
         deprecated_tags:
           type: array
           items:
             type: string
             nullable: true
-          description: <em>deprecated tags on the page</em>
+          description: deprecated tags on the page
           nullable: true
         duplicate_meta_tags:
           type: array
           items:
             type: string
             nullable: true
-          description: <em>duplicate meta tags on the page</em>
+          description: duplicate meta tags on the page
           nullable: true
         spell:
           type: object
           oneOf:
             - $ref: '#/components/schemas/HunspellInfo'
-          description: <em>spellcheck</em><br><a href="http://hunspell.github.io/" target="_blank" rel="noopener noreferrer">hunspell</a> spellcheck errors
+          description: spellcheckhunspell spellcheck errors
           nullable: true
         social_media_tags:
           type: object
           additionalProperties:
             type: string
             nullable: true
-          description: <em>object of social media tags found on the page</em><br>contains social media tags and their content<br>supported tags include but are not limited to <a href="https://ogp.me/">Open Graph</a> and <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started">Twitter card</a>
+          description: object of social media tags found on the pagecontains social media tags and their contentsupported tags include but are not limited to Open Graph and Twitter card
           nullable: true
         broken_html:
           type: object
@@ -71542,70 +71508,70 @@ components:
       properties:
         time_to_interactive:
           type: integer
-          description: <em><a href="https://web.dev/interactive/">Time To Interactive (TTI)</a> metric</em><br>the time it takes until the user can interact with a page (in milliseconds)
+          description: Time To Interactive (TTI) metricthe time it takes until the user can interact with a page (in milliseconds)
           nullable: true
         dom_complete:
           type: integer
-          description: <em>time to load resources</em><br>the time it takes until the page and all of its subresources are downloaded (in milliseconds)
+          description: time to load resourcesthe time it takes until the page and all of its subresources are downloaded (in milliseconds)
           nullable: true
         largest_contentful_paint:
           type: number
-          description: '<em>Core Web Vitals metric measuring how fast the largest above-the-fold content element is displayed</em><br>The amount of time (in milliseconds) to render the largest content element visible in the viewport, from when the user requests the URL. <a href="https://web.dev/lcp/">Learn more</a>.'
+          description: 'Core Web Vitals metric measuring how fast the largest above-the-fold content element is displayedThe amount of time (in milliseconds) to render the largest content element visible in the viewport, from when the user requests the URL. Learn more.'
           nullable: true
         first_input_delay:
           type: number
-          description: <em>Core Web Vitals metric indicating the responsiveness of a page</em><br>The time (in milliseconds) from when a user first interacts with your page to the time when the browser responds to that interaction. <a href="https://web.dev/fid/">Learn more</a>.
+          description: Core Web Vitals metric indicating the responsiveness of a pageThe time (in milliseconds) from when a user first interacts with your page to the time when the browser responds to that interaction. Learn more.
           nullable: true
         connection_time:
           type: integer
-          description: <em>time to connect to a server</em><br>the time it takes until the connection with a server is established (in milliseconds)
+          description: time to connect to a serverthe time it takes until the connection with a server is established (in milliseconds)
           nullable: true
         time_to_secure_connection:
           type: integer
-          description: <em>time to establish a secure connection</em><br>the time it takes until the secure connection with a server is established (in milliseconds)
+          description: time to establish a secure connectionthe time it takes until the secure connection with a server is established (in milliseconds)
           nullable: true
         request_sent_time:
           type: integer
-          description: <em>time to send a request to a server</em><br>the time it takes until the request to a server is sent (in milliseconds)
+          description: time to send a request to a serverthe time it takes until the request to a server is sent (in milliseconds)
           nullable: true
         waiting_time:
           type: integer
-          description: <em>time to first byte <a href="https://en.wikipedia.org/wiki/Time_to_first_byte">(TTFB)</a> in milliseconds</em>
+          description: time to first byte (TTFB) in milliseconds
           nullable: true
         download_time:
           type: integer
-          description: <em>time it takes for a browser to receive a response (in milliseconds)</em>
+          description: time it takes for a browser to receive a response (in milliseconds)
           nullable: true
         duration_time:
           type: integer
-          description: <em>total time it takes until a browser receives a complete response from a server (in milliseconds)</em>
+          description: total time it takes until a browser receives a complete response from a server (in milliseconds)
           nullable: true
         fetch_start:
           type: integer
-          description: <em>time to start downloading the HTML resource</em><br>the amount of time the browser needs to start downloading a page
+          description: time to start downloading the HTML resourcethe amount of time the browser needs to start downloading a page
           nullable: true
         fetch_end:
           type: integer
-          description: <em>time to complete downloading the HTML resource</em><br>the amount of time the browser needs to complete downloading a page
+          description: time to complete downloading the HTML resourcethe amount of time the browser needs to complete downloading a page
           nullable: true
     OnPageResourceIssueItemInfo:
       type: object
       properties:
         line:
           type: integer
-          description: <em>line where the error was found</em>
+          description: line where the error was found
           nullable: true
         column:
           type: integer
-          description: <em>column where the error was found</em>
+          description: column where the error was found
           nullable: true
         message:
           type: string
-          description: <em>text message of the error</em><br>the full list of possible HTML errors can be found <a href="https://github.com/AngleSharp/AngleSharp/blob/3968eb050e142b1d94550fba407afe772232b126/src/AngleSharp/Html/Parser/HtmlParseError.cs">here</a>
+          description: text message of the errorthe full list of possible HTML errors can be found here
           nullable: true
         status_code:
           type: integer
-          description: <i>general status code</i><br>you can find the full list of the response codes <a href="/v3/appendix/errors">here</a><br><strong>Note:</strong> we strongly recommend designing a necessary system for handling related exceptional or error conditions
+          description: 'general status codeyou can find the full list of the response codes hereNote: we strongly recommend designing a necessary system for handling related exceptional or error conditions'
           nullable: true
     OnPageResourceIssueInfo:
       type: object
@@ -71617,7 +71583,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/OnPageResourceIssueItemInfo'
             nullable: true
-          description: <em>resource errors</em>
+          description: resource errors
           nullable: true
         warnings:
           type: array
@@ -71626,7 +71592,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/OnPageResourceIssueItemInfo'
             nullable: true
-          description: <em>resource warnings</em>
+          description: resource warnings
           nullable: true
       description: resource errors and warnings
     CacheControl:
@@ -71634,26 +71600,26 @@ components:
       properties:
         cachable:
           type: boolean
-          description: <em>indicates whether the page is cacheable</em>
+          description: indicates whether the page is cacheable
           nullable: true
         ttl:
           type: integer
-          description: <em>time to live</em><br>the amount of time the browser caches a resource
+          description: time to livethe amount of time the browser caches a resource
           nullable: true
     LastModified:
       type: object
       properties:
         header:
           type: string
-          description: '<em>date and time when the header was last modified</em><br>in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"<br>example:<br><code>2019-11-15 12:57:46 +00:00</code><br>if there is no data, the value will be <code>null</code>'
+          description: 'date and time when the header was last modifiedin the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"example:2019-11-15 12:57:46 +00:00if there is no data, the value will be null'
           nullable: true
         sitemap:
           type: string
-          description: '<em>date and time when the sitemap was last modified</em><br>in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"<br>example:<br><code>2019-11-15 12:57:46 +00:00</code><br>if there is no data, the value will be <code>null</code>'
+          description: 'date and time when the sitemap was last modifiedin the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"example:2019-11-15 12:57:46 +00:00if there is no data, the value will be null'
           nullable: true
         meta_tag:
           type: string
-          description: '<em>date and time when the meta tag was last modified</em><br>in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"<br>example:<br><code>2019-11-15 12:57:46 +00:00</code><br>if there is no data, the value will be <code>null</code>'
+          description: 'date and time when the meta tag was last modifiedin the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"example:2019-11-15 12:57:46 +00:00if there is no data, the value will be null'
           nullable: true
     OnPageHtmlResourceItem:
       type: object
@@ -71681,81 +71647,81 @@ components:
                     - $ref: '#/components/schemas/OnPageResourceIssueInfo'
                   description: resource errors and warnings
                   nullable: true
-              description: <em>page properties</em><br>the value depends on the <code>resource_type</code>
+              description: page propertiesthe value depends on the resource_type
               nullable: true
             page_timing:
               type: object
               oneOf:
                 - $ref: '#/components/schemas/PageTiming'
-              description: <em>object of page load metrics</em>
+              description: object of page load metrics
               nullable: true
             onpage_score:
               type: number
-              description: <em>shows how page is optimized on a 100-point scale</em><br>this field shows how page is optimized considering critical on-page issues and warnings detected;<br><code>100</code> is the highest possible score that means the page does not have any critical on-page issues and important warnings;<br>learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-on-page-seo-score-is-calculated" target="_blank" rel="noopener noreferrer">this help center article</a>
+              description: shows how page is optimized on a 100-point scalethis field shows how page is optimized considering critical on-page issues and warnings detected;100 is the highest possible score that means the page does not have any critical on-page issues and important warnings;learn more about how the metric is calculated in this help center article
               nullable: true
             total_dom_size:
               type: integer
-              description: <em>total <a href="https://developers.google.com/web/tools/chrome-devtools/dom" target="_blank" rel="noopener noreferrer">DOM</a> size of a page</em>
+              description: total DOM size of a page
               format: int64
               nullable: true
             custom_js_response:
               type: object
-              description: '<em>the result of executing a specified JS script</em><br><strong>note</strong> that you should specify a <code>custom_js</code> field when <a href="/v3/on_page/task_post/" target="_blank" rel="noopener noreferrer">setting a task</a> to receive this data and the field type and its value will totally depend on the script you specified;<br>you can also filter the results by this value specifying <code>filters</code> in the following way:<br><code>["custom_js_response.url", "like", "pixel"]</code>'
+              description: 'the result of executing a specified JS scriptnote that you should specify a custom_js field when setting a task to receive this data and the field type and its value will totally depend on the script you specified;you can also filter the results by this value specifying filters in the following way:["custom_js_response.url", "like", "pixel"]'
               nullable: true
             custom_js_client_exception:
               type: string
-              description: '<em>error when executing a custom js</em><br>if the error occurred when executing the script you specified in the <code>custom_js</code> field, the error message would be displayed here'
+              description: 'error when executing a custom jsif the error occurred when executing the script you specified in the custom_js field, the error message would be displayed here'
               nullable: true
             broken_resources:
               type: boolean
-              description: <em>indicates whether a page contains broken resources</em>
+              description: indicates whether a page contains broken resources
               nullable: true
             broken_links:
               type: boolean
-              description: <em>indicates whether a page contains broken links</em>
+              description: indicates whether a page contains broken links
               nullable: true
             duplicate_title:
               type: boolean
-              description: <em>indicates whether a page has duplicate <code>title</code> tags</em>
+              description: indicates whether a page has duplicate title tags
               nullable: true
             duplicate_description:
               type: boolean
-              description: <em>indicates whether a page has a duplicate description</em>
+              description: indicates whether a page has a duplicate description
               nullable: true
             duplicate_content:
               type: boolean
-              description: <em>indicates whether a page has duplicate content</em>
+              description: indicates whether a page has duplicate content
               nullable: true
             click_depth:
               type: integer
-              description: <em>number of clicks it takes to get to the page</em><br>indicates the number of clicks from the homepage needed before landing at the target page
+              description: number of clicks it takes to get to the pageindicates the number of clicks from the homepage needed before landing at the target page
               nullable: true
             is_resource:
               type: boolean
-              description: <em>indicates whether a page is a single resource</em>
+              description: indicates whether a page is a single resource
               nullable: true
             url_length:
               type: integer
-              description: <em>page URL length in characters</em>
+              description: page URL length in characters
               nullable: true
             relative_url_length:
               type: integer
-              description: <em>relative URL length in characters</em>
+              description: relative URL length in characters
               nullable: true
     FetchTiming:
       type: object
       properties:
         duration_time:
           type: integer
-          description: <em>total time it takes until a browser receives a complete response from a server (in milliseconds)</em>
+          description: total time it takes until a browser receives a complete response from a server (in milliseconds)
           nullable: true
         fetch_start:
           type: integer
-          description: <em>time to start downloading the HTML resource</em><br>the amount of time the browser needs to start downloading a page
+          description: time to start downloading the HTML resourcethe amount of time the browser needs to start downloading a page
           nullable: true
         fetch_end:
           type: integer
-          description: <em>time to complete downloading the HTML resource</em><br>the amount of time the browser needs to complete downloading a page
+          description: time to complete downloading the HTML resourcethe amount of time the browser needs to complete downloading a page
           nullable: true
     OnPageBrokenResourceItem:
       type: object
@@ -71770,11 +71736,11 @@ components:
               type: object
               oneOf:
                 - $ref: '#/components/schemas/FetchTiming'
-              description: <em>time range within which a result was fetched</em>
+              description: time range within which a result was fetched
               nullable: true
             is_resource:
               type: boolean
-              description: <em>indicates whether a page is a single resource</em>
+              description: indicates whether a page is a single resource
               nullable: true
             meta:
               type: object
@@ -71799,11 +71765,11 @@ components:
               type: object
               oneOf:
                 - $ref: '#/components/schemas/FetchTiming'
-              description: <em>time range within which a result was fetched</em>
+              description: time range within which a result was fetched
               nullable: true
             is_resource:
               type: boolean
-              description: <em>indicates whether a page is a single resource</em>
+              description: indicates whether a page is a single resource
               nullable: true
     OnPageScriptResourceItem:
       type: object
@@ -71823,11 +71789,11 @@ components:
               type: object
               oneOf:
                 - $ref: '#/components/schemas/FetchTiming'
-              description: <em>time range within which a result was fetched</em>
+              description: time range within which a result was fetched
               nullable: true
             accept_type:
               type: string
-              description: '<em>indicates the expected type of resource</em><br>for example, if <code>"resource_type": "broken"</code>, <code>accept_type</code> will indicate the type of the broken resource<br>possible values:<br><code>any</code>, <code>none</code>, <code>image</code>, <code>sitemap</code>, <code>robots</code>, <code>script</code>, <code>stylesheet</code>, <code>redirect</code>, <code>html</code>, <code>text</code>, <code>other</code>, <code>font</code>'
+              description: 'indicates the expected type of resourcefor example, if "resource_type": "broken", accept_type will indicate the type of the broken resourcepossible values:any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font'
               nullable: true
     OnPageImageResourceItem:
       type: object
@@ -71842,17 +71808,17 @@ components:
               type: object
               oneOf:
                 - $ref: '#/components/schemas/ResourceMetaInfo'
-              description: <em>page properties</em><br>the value depends on the <code>resource_type</code>
+              description: page propertiesthe value depends on the resource_type
               nullable: true
             fetch_timing:
               type: object
               oneOf:
                 - $ref: '#/components/schemas/FetchTiming'
-              description: <em>time range within which a result was fetched</em>
+              description: time range within which a result was fetched
               nullable: true
             accept_type:
               type: string
-              description: '<em>indicates the expected type of resource</em><br>for example, if <code>"resource_type": "broken"</code>, <code>accept_type</code> will indicate the type of the broken resource<br>possible values:<br><code>any</code>, <code>none</code>, <code>image</code>, <code>sitemap</code>, <code>robots</code>, <code>script</code>, <code>stylesheet</code>, <code>redirect</code>, <code>html</code>, <code>text</code>, <code>other</code>, <code>font</code>'
+              description: 'indicates the expected type of resourcefor example, if "resource_type": "broken", accept_type will indicate the type of the broken resourcepossible values:any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font'
               nullable: true
     OnPageStylesheetResourceItem:
       type: object
@@ -71867,30 +71833,30 @@ components:
               type: object
               oneOf:
                 - $ref: '#/components/schemas/ResourceMetaInfo'
-              description: <em>page properties</em><br>the value depends on the <code>resource_type</code>
+              description: page propertiesthe value depends on the resource_type
               nullable: true
             fetch_timing:
               type: object
               oneOf:
                 - $ref: '#/components/schemas/FetchTiming'
-              description: <em>time range within which a result was fetched</em>
+              description: time range within which a result was fetched
               nullable: true
             accept_type:
               type: string
-              description: '<em>indicates the expected type of resource</em><br>for example, if <code>"resource_type": "broken"</code>, <code>accept_type</code> will indicate the type of the broken resource<br>possible values:<br><code>any</code>, <code>none</code>, <code>image</code>, <code>sitemap</code>, <code>robots</code>, <code>script</code>, <code>stylesheet</code>, <code>redirect</code>, <code>html</code>, <code>text</code>, <code>other</code>, <code>font</code>'
+              description: 'indicates the expected type of resourcefor example, if "resource_type": "broken", accept_type will indicate the type of the broken resourcepossible values:any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font'
               nullable: true
     OnPagePagesResultInfo:
       type: object
       properties:
         crawl_progress:
           type: string
-          description: '<em>status of the crawling session</em><br>possible values: <code>in_progress</code>, <code>finished</code>'
+          description: 'status of the crawling sessionpossible values: in_progress, finished'
           nullable: true
         crawl_status:
           type: object
           oneOf:
             - $ref: '#/components/schemas/CrawlStatusInfo'
-          description: <em>details of the crawling session</em>
+          description: details of the crawling session
           nullable: true
         search_after_token:
           type: string
@@ -71900,12 +71866,12 @@ components:
           nullable: true
         total_items_count:
           type: integer
-          description: <em>total number of relevant items in the database</em>
+          description: total number of relevant items in the database
           format: int64
           nullable: true
         items_count:
           type: integer
-          description: <em>number of items in the results array</em>
+          description: number of items in the results array
           format: int64
           nullable: true
         items:
@@ -71915,7 +71881,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/BaseOnPageResourceItem'
             nullable: true
-          description: <em>items array</em>
+          description: items array
           nullable: true
     OnPagePagesTaskInfo:
       type: object
@@ -71930,7 +71896,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/OnPagePagesResultInfo'
                 nullable: true
-              description: <em>array of results</em>
+              description: array of results
               nullable: true
     OnPagePagesResponseInfo:
       type: object
@@ -71945,7 +71911,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/OnPagePagesTaskInfo'
                 nullable: true
-              description: <em>array of tasks</em>
+              description: array of tasks
               nullable: true
     OnPagePagesByResourceRequestInfo:
       type: object
@@ -71984,7 +71950,7 @@ components:
       example:
         - id: 02241700-1535-0216-0000-034137259bc1
           url: https://www.etsy.com/about/jobs.workco2018.js?
-    FoundOnWebElement:
+    PodcastsElement:
       type: object
       properties:
         type:
@@ -71995,15 +71961,21 @@ components:
           type: string
           description: title of the row
           nullable: true
-        subtitle:
+        url:
           type: string
-          description: subtitle of the element
+          description: URL of element
           nullable: true
-        image:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AiModeImagesElementInfo'
-          description: image of the element
+        description:
+          type: string
+          description: description of the results element in SERP
+          nullable: true
+        timestamp:
+          type: string
+          description: "date and time when the result was published\nin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”\nexample:\n2019-11-15 12:57:46 +00:00"
+          nullable: true
+        time_to_play:
+          type: string
+          description: the total time it will take to play an episode
           nullable: true
     OnPagePagesByResourceResultInfo:
       type: object
@@ -73665,7 +73637,7 @@ components:
       example:
         - url: https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api
           id: 11161551-1535-0216-0000-500b3f307f92
-    PodcastsElement:
+    MentionCarouselElement:
       type: object
       properties:
         type:
@@ -73676,21 +73648,26 @@ components:
           type: string
           description: title of the row
           nullable: true
-        url:
-          type: string
-          description: URL of element
+        price:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/PriceInfo'
+          description: price of the app element
           nullable: true
-        description:
-          type: string
-          description: description of the results element in SERP
+        rating:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/RatingInfo'
+          description: "the element’s rating \nthe popularity rate based on reviews and displayed in SERP"
           nullable: true
-        timestamp:
-          type: string
-          description: "date and time when the result was published\nin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”\nexample:\n2019-11-15 12:57:46 +00:00"
-          nullable: true
-        time_to_play:
-          type: string
-          description: the total time it will take to play an episode
+        mentioned_in:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/LinkElement'
+            nullable: true
+          description: additional elements in the mention_carousel item
           nullable: true
     PageSectionContentInfo:
       type: object
@@ -73772,38 +73749,6 @@ components:
             nullable: true
           description: <em>content of the table on the page</em><br>
           nullable: true
-    MentionCarouselElement:
-      type: object
-      properties:
-        type:
-          type: string
-          description: type of element
-          nullable: true
-        title:
-          type: string
-          description: title of the row
-          nullable: true
-        price:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/PriceInfo'
-          description: price of the app element
-          nullable: true
-        rating:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/RatingInfo'
-          description: "the element’s rating \nthe popularity rate based on reviews and displayed in SERP"
-          nullable: true
-        mentioned_in:
-          type: array
-          items:
-            type: object
-            oneOf:
-              - $ref: '#/components/schemas/LinkElement'
-            nullable: true
-          description: additional elements in the mention_carousel item
-          nullable: true
     Contacts:
       type: object
       properties:
@@ -73859,7 +73804,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/ContentRatingInfo'
+              - $ref: '#/components/schemas/ContententRatingInfo'
             nullable: true
           description: <em>contains objects with rating information for the products displayed on the page</em><br>
           nullable: true
@@ -74096,67 +74041,71 @@ components:
       properties:
         url:
           type: string
-          description: '<em>target page url</em><br><strong>required field</strong><br>absolute URL of the target page;<br><strong>Note #1:</strong> results will be returned for the specified URL only;<br><strong>Note #2:</strong> to prevent denial-of-service events, tasks that contain a duplicate crawl host will be returned with a 40501 error;<br>to prevent this error from occurring, avoid setting tasks with the same domain if at least one of your previous tasks with this domain (including a page URL on the domain) is still in a crawling queue'
+          description: 'target page urlrequired fieldabsolute URL of the target page;Note #1: results will be returned for the specified URL only;Note #2: to prevent denial-of-service events, tasks that contain a duplicate crawl host will be returned with a 40501 error;to prevent this error from occurring, avoid setting tasks with the same domain if at least one of your previous tasks with this domain (including a page URL on the domain) is still in a crawling queue'
         custom_user_agent:
           type: string
-          description: '<em>custom user agent</em><br>optional field<br>custom user agent for crawling a website<br>example: <code>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36<br></code><br>default value: <code>Mozilla/5.0 (compatible; RSiteAuditor)</code>'
+          description: 'custom user agentoptional fieldcustom user agent for crawling a websiteexample: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36default value: Mozilla/5.0 (compatible; RSiteAuditor)'
           nullable: true
         browser_preset:
           type: string
-          description: '<em>preset for browser screen parameters</em><br>optional field<br>if you use this field, you don''t need to indicate <code>browser_screen_width</code>, <code>browser_screen_height</code>, <code>browser_screen_scale_factor</code>possible values:<br><code>desktop</code>, <code>mobile</code>, <code>tablet</code><code>desktop</code> preset will apply the following values:<p><code>browser_screen_width: 1920</code><br><code>browser_screen_height: 1080</code><br><code>browser_screen_scale_factor: 1</code><p><code>mobile</code> preset will apply the following values:<p><code>browser_screen_width: 390</code><br><code>browser_screen_height: 844</code><br><code>browser_screen_scale_factor: 3</code><p><code>tablet</code> preset will apply the following values:<p><code>browser_screen_width: 1024</code><br><code>browser_screen_height: 1366</code><br><code>browser_screen_scale_factor: 2</code><p><strong>Note:</strong> to use this parameter, set <code>enable_javascript</code> or <code>enable_browser_rendering</code> to <code>true</code>'
+          description: 'preset for browser screen parametersoptional fieldif you use this field, you don''t need to indicate browser_screen_width, browser_screen_height, browser_screen_scale_factorpossible values:desktop, mobile, tabletdesktop preset will apply the following values:browser_screen_width: 1920browser_screen_height: 1080browser_screen_scale_factor: 1mobile preset will apply the following values:browser_screen_width: 390browser_screen_height: 844browser_screen_scale_factor: 3tablet preset will apply the following values:browser_screen_width: 1024browser_screen_height: 1366browser_screen_scale_factor: 2Note: to use this parameter, set enable_javascript or enable_browser_rendering to true'
           nullable: true
         browser_screen_width:
           type: integer
-          description: '<em>browser screen width</em><br>optional field<br>you can set a custom browser screen width to perform audit for a particular device;<br>if you use this field, you don''t need to indicate <code>browser_preset</code> as it will be ignored;<strong>Note:</strong> to use this parameter, set <code>enable_javascript</code> or <code>enable_browser_rendering</code> to <code>true</code>minimum value, in pixels: <code>240</code><br>maximum value, in pixels: <code>9999</code>'
+          description: 'browser screen widthoptional fieldyou can set a custom browser screen width to perform audit for a particular device;if you use this field, you don''t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value, in pixels: 240maximum value, in pixels: 9999'
           format: int64
           nullable: true
         browser_screen_height:
           type: integer
-          description: '<em>browser screen height</em><br>optional field<br>you can set a custom browser screen height to perform audit for a particular device;<br>if you use this field, you don''t need to indicate <code>browser_preset</code> as it will be ignored;<strong>Note:</strong> to use this parameter, set <code>enable_javascript</code> or <code>enable_browser_rendering</code> to <code>true</code>minimum value, in pixels: <code>240</code><br>maximum value, in pixels: <code>9999</code>'
+          description: 'browser screen heightoptional fieldyou can set a custom browser screen height to perform audit for a particular device;if you use this field, you don''t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value, in pixels: 240maximum value, in pixels: 9999'
           nullable: true
         browser_screen_scale_factor:
           type: number
-          description: '<em>browser screen scale factor</em><br>optional field<br>you can set a custom browser screen resolution ratio to perform audit for a particular device;<br>if you use this field, you don''t need to indicate <code>browser_preset</code> as it will be ignored;<strong>Note:</strong> to use this parameter, set <code>enable_javascript</code> or <code>enable_browser_rendering</code> to <code>true</code>minimum value: <code>0.5</code><br>maximum value: <code>3</code>'
+          description: 'browser screen scale factoroptional fieldyou can set a custom browser screen resolution ratio to perform audit for a particular device;if you use this field, you don''t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value: 0.5maximum value: 3'
           nullable: true
         store_raw_html:
           type: boolean
-          description: '<em>store HTML of a crawled page</em><br>optional field<br>set to <code>true</code> if you want get the HTML of the page using the <a href="/v3/on_page/raw_html/" target="_blank" rel="noopener noreferrer">OnPage Raw HTML endpoint</a><br>default value: <code>false</code>'
+          description: 'store HTML of a crawled pageoptional fieldset to true if you want get the HTML of the page using the OnPage Raw HTML endpointdefault value: false'
           nullable: true
         accept_language:
           type: string
-          description: '<em>language header for accessing the website</em><br>optional field<br>all locale formats are supported (xx, xx-XX, xxx-XX, etc.)<br><strong>Note:</strong> if you do not specify this parameter, some websites may deny access; in this case, pages will be returned with the <code>"type":"broken</code> in the response array'
+          description: 'language header for accessing the websiteoptional fieldall locale formats are supported (xx, xx-XX, xxx-XX, etc.)Note: if you do not specify this parameter, some websites may deny access; in this case, pages will be returned with the "type":"broken in the response array'
           nullable: true
         load_resources:
           type: boolean
-          description: '<em>load resources</em><br>optional field<br>set to <code>true</code> if you want to load image, stylesheets, scripts, and broken resources<br>default value: <code>false</code><br><strong>Note:</strong> if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter <a href="https://dataforseo.com/help-center/cost-of-onpage-api-parameters" target="_blank" rel="noopener noreferrer">in our help article</a>; the cost can be calculated on the <a href="https://dataforseo.com/pricing/on-page/onpage-api" target="_blank" rel="noopener noreferrer">Pricing Page</a>'
+          description: 'load resourcesoptional fieldset to true if you want to load image, stylesheets, scripts, and broken resourcesdefault value: falseNote: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page'
           nullable: true
         enable_browser_rendering:
           type: boolean
-          description: '<em>emulate browser rendering to measure Core Web Vitals</em><br>optional field<br>by using this parameter you will be able to emulate a browser when loading a web page;<br><code>enable_browser_rendering</code> loads styles, images, fonts, animations, videos, and other resources on a page;<br>default value: <code>false</code><br>set to <code>true</code> to obtain Core Web Vitals (FID, CLS, LCP) metrics in the response;<br><strong>if you use this field, parameters <code>enable_javascript</code>, and <code>load_resources</code> are enabled automatically;</strong><br><strong>Note:</strong> if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter <a href="https://dataforseo.com/help-center/cost-of-onpage-api-parameters" target="_blank" rel="noopener noreferrer">in our help article</a>; the cost can be calculated on the <a href="https://dataforseo.com/pricing/on-page/onpage-api" target="_blank" rel="noopener noreferrer">Pricing Page</a>'
+          description: 'emulate browser rendering to measure Core Web Vitalsoptional fieldby using this parameter you will be able to emulate a browser when loading a web page;enable_browser_rendering loads styles, images, fonts, animations, videos, and other resources on a page;default value: falseset to true to obtain Core Web Vitals (FID, CLS, LCP) metrics in the response;if you use this field, parameters enable_javascript, and load_resources are enabled automatically;Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page'
           nullable: true
         disable_cookie_popup:
           type: boolean
-          description: <em>disable the cookie popup </em><br>optional field<br>set to <code>true</code> if you want to disable the popup requesting cookie consent from the user;<br>default value:<br><code>false</code>
+          description: disable the cookie popup optional fieldset to true if you want to disable the popup requesting cookie consent from the user;default value:false
           nullable: true
         return_despite_timeout:
           type: boolean
-          description: '<em>return data on pages despite the timeout error</em><br>optional field<br>if <code>true</code>, the data will be provided on pages that failed to load within 120 seconds and responded with a timeout error;<br>default value: <code>false</code>'
+          description: 'return data on pages despite the timeout erroroptional fieldif true, the data will be provided on pages that failed to load within 120 seconds and responded with a timeout error;default value: false'
+          nullable: true
+        enable_javascript:
+          type: boolean
+          description: 'load javascript on a pageoptional fieldset to true if you want to load the scripts available on a pagedefault value: falseNote: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page'
           nullable: true
         enable_xhr:
           type: boolean
-          description: '<em>enable XMLHttpRequest on a page</em><br>optional field<br>set to <code>true</code> if you want our crawler to request data from a web server using the XMLHttpRequest object<br>default value:<br><code>false</code>if you use this field, <code>enable_javascript</code> must be set to <code>true</code>;'
+          description: 'enable XMLHttpRequest on a pageoptional fieldset to true if you want our crawler to request data from a web server using the XMLHttpRequest objectdefault value:falseif you use this field, enable_javascript must be set to true;'
           nullable: true
         custom_js:
           type: string
-          description: '<em>custom javascript</em><br>optional field<code>Note</code> that the execution time for the script you enter here should be 700 ms maximum;<br>for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a <code>scr</code> attribute:<br><code>let meta = { haveGoogleAnalytics: false, haveTagManager: false };rnfor (var i = 0; i &lt; document.scripts.length; i++) {rn let src = document.scripts[i].getAttribute("src");rn if (src != undefined) {rn if (src.indexOf("analytics.js") &gt;= 0)rn      meta.haveGoogleAnalytics = true;rntif (src.indexOf("gtm.js") &gt;= 0)rn      meta.haveTagManager = true;rn  }rn}rnmeta;</code>the returned value depends on what you specified in this field. For instance, if you specify the following script:<br><code>meta = {}; meta.url = document.URL; meta.test = ''test''; meta;</code><br>as a response you will receive the following data:<br><code>"custom_js_response": {<br>"url": "https://dataforseo.com/",<br>"test": "test"<br>}</code>'
+          description: 'custom javascriptoptional fieldNote that the execution time for the script you enter here should be 700 ms maximum;for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:let meta = { haveGoogleAnalytics: false, haveTagManager: false };rnfor (var i = 0; i < document.scripts.length; i++) {rn let src = document.scripts[i].getAttribute("src");rn if (src != undefined) {rn if (src.indexOf("analytics.js") >= 0)rn      meta.haveGoogleAnalytics = true;rntif (src.indexOf("gtm.js") >= 0)rn      meta.haveTagManager = true;rn  }rn}rnmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:meta = {}; meta.url = document.URL; meta.test = ''test''; meta;as a response you will receive the following data:"custom_js_response": {"url": "https://dataforseo.com/","test": "test"}'
           nullable: true
         validate_micromarkup:
           type: boolean
-          description: '<em>enable microdata validation</em><br>optional field<br>if set to <code>true</code>, you can use the <a href="/v3/on_page/microdata/" target="_blank" rel="noopener noreferrer">OnPage API Microdata endpoint</a> with the <code>id</code> of the task;<br>default value: <code>false</code>'
+          description: 'enable microdata validationoptional fieldif set to true, you can use the OnPage API Microdata endpoint with the id of the task;default value: false'
           nullable: true
         check_spell:
           type: boolean
-          description: '<em>check spelling</em><br>optional field<br>set to <code>true</code> to check spelling on a website using <a href="http://hunspell.github.io/" target="_blank" rel="noopener noreferrer">Hunspell</a> library<br>default value: <code>false</code>'
+          description: 'check spellingoptional fieldset to true to check spelling on a website using Hunspell librarydefault value: false'
           nullable: true
         checks_threshold:
           type: object
@@ -74164,15 +74113,15 @@ components:
             type: integer
             format: int64
             nullable: true
-          description: <em>custom threshold values for checks</em><br>optional field<br>you can specify custom threshold values for the parameters included in the <code>checks</code> array of OnPage API responses;<br><strong>Note:</strong> only integer threshold values can be modified;
+          description: 'custom threshold values for checksoptional fieldyou can specify custom threshold values for the parameters included in the checks array of OnPage API responses;Note: only integer threshold values can be modified;'
           nullable: true
         switch_pool:
           type: boolean
-          description: '<em>switch proxy pool</em><br>optional field<br>if <code>true</code>, additional proxy pools will be used to obtain the requested data;<br>the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional <code>rate-limit</code> and/or <code>site_unreachable</code> errors'
+          description: 'switch proxy pooloptional fieldif true, additional proxy pools will be used to obtain the requested data;the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors'
           nullable: true
         ip_pool_for_scan:
           type: string
-          description: '<em>proxy pool</em><br>optional field<br>you can choose a location of the proxy pool that will be used to obtain the requested data;<br>the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional <code>site_unreachable</code> errors<br>possible values: <code>us</code>, <code>de</code>'
+          description: 'proxy pooloptional fieldyou can choose a location of the proxy pool that will be used to obtain the requested data;the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errorspossible values: us, de'
           nullable: true
       example:
         - url: https://dataforseo.com/blog
@@ -74183,19 +74132,19 @@ components:
       properties:
         crawl_progress:
           type: string
-          description: '<em>status of the crawling session</em><br>possible values: <code>in_progress</code>, <code>finished</code>'
+          description: 'status of the crawling sessionpossible values: in_progress, finished'
           nullable: true
         crawl_status:
           type: object
-          description: <em>details of the crawling session</em><br>in this case the value will be <code>null</code>
+          description: details of the crawling sessionin this case the value will be null
           nullable: true
         crawl_gateway_address:
           type: string
-          description: <em>crawler ip address</em><br>displays the IP address used by the crawler to initiate the current crawling session<br>you can find the full list of IPs used by our crawler in the <a href="/v3/on_page/overview" target="_blank" rel="noopener noreferrer">Overview section</a>
+          description: crawler ip addressdisplays the IP address used by the crawler to initiate the current crawling sessionyou can find the full list of IPs used by our crawler in the Overview section
           nullable: true
         items_count:
           type: integer
-          description: <em>number of items in the results array</em>
+          description: number of items in the results array
           format: int64
           nullable: true
         items:
@@ -74205,7 +74154,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/BaseOnPageResourceItem'
             nullable: true
-          description: <em>items array</em>
+          description: items array
           nullable: true
     OnPageInstantPagesTaskInfo:
       type: object
@@ -74220,7 +74169,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/OnPageInstantPagesResultInfo'
                 nullable: true
-              description: <em>array of results</em>
+              description: array of results
               nullable: true
     OnPageInstantPagesResponseInfo:
       type: object
@@ -74235,7 +74184,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/OnPageInstantPagesTaskInfo'
                 nullable: true
-              description: <em>array of tasks</em>
+              description: array of tasks
               nullable: true
     OnPageLighthouseLanguagesResultInfo:
       type: object
@@ -74535,6 +74484,7 @@ components:
                   type: object
                   nullable: true
                 nullable: true
+              description: <em>results of Lighthouse audit</em><br>this array will include data according to the parameters specified in the POST request;<p>description of the fields in the <code>result</code> array is available in the <a href="https://github.com/GoogleChrome/lighthouse/blob/master/readme.md">official documentation</a>
               nullable: true
     OnPageLighthouseTaskGetJsonResponseInfo:
       type: object
@@ -74679,8 +74629,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     ContentAnalysisIdListResultInfo:
@@ -75081,7 +75031,7 @@ components:
         rating:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/ContentRatingInfo'
+            - $ref: '#/components/schemas/ContententRatingInfo'
           description: <em>content rating</em><br>rating related to <code>content_info</code>
           nullable: true
         group_date:
@@ -75152,7 +75102,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/ContentRatingInfo'
+              - $ref: '#/components/schemas/ContententRatingInfo'
             nullable: true
           description: <em>ratings found on the page</em><br>all ratings found on the page based on microdata
           nullable: true
@@ -76020,8 +75970,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     MerchantIdListResultInfo:
@@ -80515,8 +80465,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     AppDataIdListResultInfo:
@@ -83939,8 +83889,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-08-01 17:42:44'
-          datetime_to: '2026-08-11 17:42:44'
+        - datetime_from: '2026-08-20 14:59:30'
+          datetime_to: '2026-08-30 14:59:30'
           limit: 10
           include_metadata: true
     BusinessDataIdListResultInfo:
@@ -83971,9 +83921,9 @@ components:
           description: '<em>total tasks cost, USD</em>'
           nullable: true
         metadata:
-          type: array
-          items:
-            type: string
+          type: object
+          additionalProperties:
+            type: object
             nullable: true
           description: <em>contains parameters you specified in the POST request</em>
           nullable: true
@@ -93654,6 +93604,25 @@ components:
                 nullable: true
               description: <em>array of tasks</em>
               nullable: true
+    DataLabsVisualStoriesSerpElementItem:
+      type: object
+      allOf:
+        - type: object
+          oneOf:
+            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
+          nullable: true
+        - type: object
+          properties:
+            items:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AmazonLabelElement'
+                nullable: true
+              description: historical SERPs and related data found in the database
+              nullable: true
+      deprecated: true
     DataLabsFoundOnWebSerpElementItem:
       type: object
       allOf:
