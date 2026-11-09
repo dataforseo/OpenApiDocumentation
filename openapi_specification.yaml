@@ -24,8 +24,8 @@ paths:
                   - $ref: '#/components/schemas/SerpIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -3176,12 +3176,12 @@ paths:
     get:
       tags:
         - Serp
-      description: 'Description of the fields for sending a request:'
+      description: "Description of the fields for sending a request:\nfor more info please visit 'https://docs.dataforseo.com/v3/serp/yahoo/organic/task_get/advanced/?bash'"
       operationId: YahooOrganicTaskGetAdvanced
       parameters:
         - name: id
           in: path
-          description: <em>task identifier</em><br><strong>unique task identifier in our system in the <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> format</strong><br>you will be able to use it within <strong>30 days</strong> to request the results of the task at any time
+          description: task identifierunique task identifier in our system in the UUID formatyou will be able to use it within 30 days to request the results of the task at any time
           required: true
           schema:
             type: string
@@ -3260,7 +3260,7 @@ paths:
     post:
       tags:
         - Serp
-      description: Live SERP provides real-time data on top search engine results. These results are specific to the selected location (see the List of Locations) and language (see the List of Languages) settings.
+      description: "Live SERP provides real-time data on top search engine results. These results are specific to the selected location (see the List of Locations) and language (see the List of Languages) settings.\nfor more info please visit 'https://docs.dataforseo.com/v3/serp/yahoo/organic/live/advanced/?bash'"
       operationId: YahooOrganicLiveAdvanced
       requestBody:
         content:
@@ -3533,7 +3533,7 @@ paths:
     post:
       tags:
         - Serp
-      description: "‌‌\nNaver SERP API provides top 15 search engine results. Naver search results do not vary by location and language, and the search parameters for this search engine do not contain language and location variables. However, you can specify a keyword in any language, and the search engine results may vary depending on the language you used for specifying the search query."
+      description: "‌‌\nNaver SERP API provides top 20 search engine results. Naver search results do not vary by location and language, and the search parameters for this search engine do not contain language and location variables. However, you can specify a keyword in any language, and the search engine results may vary depending on the language you used for specifying the search query."
       operationId: NaverOrganicTaskPost
       requestBody:
         content:
@@ -4505,8 +4505,8 @@ paths:
                   - $ref: '#/components/schemas/DataforseoLabsIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -5325,8 +5325,8 @@ paths:
                 nullable: true
               example:
                 - keyword: albert einstein
-                  datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                  datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   location_code: 2840
                   language_code: en
                   limit: 10
@@ -5380,7 +5380,7 @@ paths:
     post:
       tags:
         - DataforseoLabs
-      description: "This endpoint will provide you with the keywords for which specified pages rank within the same SERP. You will get search volume, competition, cost-per-click data on each intersecting keyword. Along with that, you will get data on SERP elements that specified pages rank for in search results, as well as the estimated traffic volume and cost of ad traffic. Page Intersection endpoint supports organic, paid, local pack and featured snippet results.\nfor more info please visit 'https://docs.dataforseo.com/v3/dataforseo_labs/google/page_intersection/live/?bash'"
+      description: "This endpoint will provide you with the keywords for which specified pages rank within the same SERP. You will get search volume, competition, cost-per-click data on each intersecting keyword. Along with that, you will get data on SERP elements that specified pages rank for in search results, as well as the estimated traffic volume and cost of ad traffic. Page Intersection endpoint supports organic, paid, local pack, featured snippet, and ai_overview_reference results.\nfor more info please visit 'https://docs.dataforseo.com/v3/dataforseo_labs/google/page_intersection/live/?bash'"
       operationId: GooglePageIntersectionLive
       requestBody:
         content:
@@ -6082,8 +6082,8 @@ paths:
                   - $ref: '#/components/schemas/DomainAnalyticsIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -6504,8 +6504,8 @@ paths:
                   - $ref: '#/components/schemas/KeywordsDataIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -8396,8 +8396,8 @@ paths:
                   - $ref: '#/components/schemas/BacklinksIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -9156,7 +9156,7 @@ paths:
                     - https://variety.com/
                     - https://stackoverflow.com/
                     - www.trustpilot.com
-                  date_from: '2026-09-26 08:39:25'
+                  date_from: '2026-10-10 06:52:48'
       responses:
         '200':
           description: Successful operation
@@ -9197,7 +9197,7 @@ paths:
                     - https://variety.com/
                     - https://stackoverflow.com/
                     - www.trustpilot.com
-                  datetime_from: 2026-39-26
+                  datetime_from: 2026-52-10
       responses:
         '200':
           description: Successful operation
@@ -10967,8 +10967,8 @@ paths:
                   - $ref: '#/components/schemas/OnPageIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -11911,8 +11911,8 @@ paths:
                   - $ref: '#/components/schemas/ContentAnalysisIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -12229,8 +12229,8 @@ paths:
                   - $ref: '#/components/schemas/MerchantIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -13215,8 +13215,8 @@ paths:
                   - $ref: '#/components/schemas/AppDataIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -14266,8 +14266,8 @@ paths:
                   - $ref: '#/components/schemas/BusinessDataIdListRequestInfo'
                 nullable: true
               example:
-                - datetime_from: '2026-10-06 08:39:25'
-                  datetime_to: '2026-10-16 08:39:25'
+                - datetime_from: '2026-10-20 06:52:48'
+                  datetime_to: '2026-10-30 06:52:48'
                   limit: 10
                   include_metadata: true
       responses:
@@ -14316,7 +14316,7 @@ paths:
     get:
       tags:
         - BusinessData
-      description: You will receive the list of locations by this API call. You can also download the full list of supported locations in the CSV format (last updated 2026-09-01).
+      description: You will receive the list of locations by this API call. You can also download the full list of supported locations in the CSV format (last updated 2026-11-02).
       operationId: BusinessListingsLocations
       responses:
         '200':
@@ -16432,10 +16432,10 @@ components:
       discriminator:
         propertyName: type
         mapping:
-          paid: '#/components/schemas/DataLabsPaidSerpElementItem'
-          featured_snippet: '#/components/schemas/DataLabsFeaturedSnippetSerpElementItem'
           local_pack: '#/components/schemas/DataLabsLocalPackSerpElementItem'
+          featured_snippet: '#/components/schemas/DataLabsFeaturedSnippetSerpElementItem'
           organic: '#/components/schemas/DataLabsOrganicSerpElementItem'
+          paid: '#/components/schemas/DataLabsPaidSerpElementItem'
           answer_box: '#/components/schemas/DataLabsAnswerBoxSerpElementItem'
           carousel: '#/components/schemas/DataLabsCarouselSerpElementItem'
           multi_carousel: '#/components/schemas/DataLabsMultiCarouselSerpElementItem'
@@ -16757,7 +16757,7 @@ components:
       properties:
         resource_type:
           type: string
-          description: <em>type of the returned resource = <strong>'html'</strong></em>
+          description: type of element
           nullable: true
         status_code:
           type: integer
@@ -17026,7 +17026,7 @@ components:
         mapping:
           domain: '#/components/schemas/AiOptimizationLLmMentionsDomainElement'
           keyword: '#/components/schemas/AiOptimizationLLmMentionsKeywordElement'
-    DataLabsMentionCarouselSerpElementItem:
+    DataLabsPodcastsSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -17035,16 +17035,12 @@ components:
           nullable: true
         - type: object
           properties:
-            title:
-              type: string
-              description: title of the result in SERP
-              nullable: true
             items:
               type: array
               items:
                 type: object
                 oneOf:
-                  - $ref: '#/components/schemas/MentionCarouselElement'
+                  - $ref: '#/components/schemas/PodcastsElement'
                 nullable: true
               description: historical SERPs and related data found in the database
               nullable: true
@@ -17319,42 +17315,27 @@ components:
           description: related search terms that appear in the result
           nullable: true
       deprecated: true
-    CoursesSerpElementItem:
+    DataLabsMentionCarouselSerpElementItem:
       type: object
       allOf:
         - type: object
           oneOf:
-            - $ref: '#/components/schemas/BaseSerpApiElementItem'
+            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
           nullable: true
         - type: object
           properties:
-            rank_group:
-              type: integer
-              description: "group rank in SERP\nposition within a group of elements with identical type values;\npositions of elements with different type values are omitted from rank_group;\nalways equals 0 for desktop"
-              nullable: true
-            rank_absolute:
-              type: integer
-              description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
-              nullable: true
             title:
               type: string
-              description: title of a given link element
-              nullable: true
-            categories:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: "array of course categories\ncontains a list of categories relevant to courses"
+              description: title of the result in SERP
               nullable: true
             items:
               type: array
               items:
                 type: object
                 oneOf:
-                  - $ref: '#/components/schemas/CoursesElement'
+                  - $ref: '#/components/schemas/MentionCarouselElement'
                 nullable: true
-              description: contains arrays of elements available in the list
+              description: historical SERPs and related data found in the database
               nullable: true
       deprecated: true
     AiModeRectangleInfo:
@@ -17606,6 +17587,44 @@ components:
           description: likes count
           format: int64
           nullable: true
+    CoursesSerpElementItem:
+      type: object
+      allOf:
+        - type: object
+          oneOf:
+            - $ref: '#/components/schemas/BaseSerpApiElementItem'
+          nullable: true
+        - type: object
+          properties:
+            rank_group:
+              type: integer
+              description: "group rank in SERP\nposition within a group of elements with identical type values;\npositions of elements with different type values are omitted from rank_group;\nalways equals 0 for desktop"
+              nullable: true
+            rank_absolute:
+              type: integer
+              description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
+              nullable: true
+            title:
+              type: string
+              description: title of a given link element
+              nullable: true
+            categories:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: "array of course categories\ncontains a list of categories relevant to courses"
+              nullable: true
+            items:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/CoursesElement'
+                nullable: true
+              description: contains arrays of elements available in the list
+              nullable: true
+      deprecated: true
     ExploreBrandsSerpElementItem:
       type: object
       allOf:
@@ -17637,6 +17656,27 @@ components:
               description: contains arrays of elements available in the list
               nullable: true
       deprecated: true
+    TopDomainInfo:
+      properties:
+        domain:
+          type: string
+          nullable: true
+        count:
+          type: integer
+          format: int64
+          nullable: true
+    ContentAnalysisCategoriesInfo:
+      properties:
+        category:
+          type: array
+          items:
+            type: integer
+            nullable: true
+          nullable: true
+        count:
+          type: integer
+          format: int64
+          nullable: true
     FoundOnWebSerpElementItem:
       type: object
       allOf:
@@ -17675,27 +17715,6 @@ components:
               description: contains arrays of elements available in the list
               nullable: true
       deprecated: true
-    TopDomainInfo:
-      properties:
-        domain:
-          type: string
-          nullable: true
-        count:
-          type: integer
-          format: int64
-          nullable: true
-    ContentAnalysisCategoriesInfo:
-      properties:
-        category:
-          type: array
-          items:
-            type: integer
-            nullable: true
-          nullable: true
-        count:
-          type: integer
-          format: int64
-          nullable: true
     VisualStoriesSerpElementItem:
       type: object
       allOf:
@@ -17719,33 +17738,6 @@ components:
                 type: object
                 oneOf:
                   - $ref: '#/components/schemas/AmazonLabelElement'
-                nullable: true
-              description: contains arrays of elements available in the list
-              nullable: true
-      deprecated: true
-    PodcastsSerpElementItem:
-      type: object
-      allOf:
-        - type: object
-          oneOf:
-            - $ref: '#/components/schemas/BaseSerpApiElementItem'
-          nullable: true
-        - type: object
-          properties:
-            rank_group:
-              type: integer
-              description: "group rank in SERP\nposition within a group of elements with identical type values;\npositions of elements with different type values are omitted from rank_group;\nalways equals 0 for desktop"
-              nullable: true
-            rank_absolute:
-              type: integer
-              description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
-              nullable: true
-            items:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/PodcastsElement'
                 nullable: true
               description: contains arrays of elements available in the list
               nullable: true
@@ -18167,7 +18159,7 @@ components:
             nullable: true
           description: "monthly search volume rates\narray of objects with search volume rates in a certain month of a year"
           nullable: true
-    MentionCarouselSerpElementItem:
+    PodcastsSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -18184,16 +18176,12 @@ components:
               type: integer
               description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
               nullable: true
-            title:
-              type: string
-              description: title of a given link element
-              nullable: true
             items:
               type: array
               items:
                 type: object
                 oneOf:
-                  - $ref: '#/components/schemas/MentionCarouselElement'
+                  - $ref: '#/components/schemas/PodcastsElement'
                 nullable: true
               description: contains arrays of elements available in the list
               nullable: true
@@ -18393,8 +18381,8 @@ components:
           description: '<em>include task metadata in the response</em><br>optional field<br>if set to <code>true</code>, the <code>metadata</code> object containing parameters specified in the POST request will be provided in the response;<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     SerpIdListResultInfo:
@@ -36491,7 +36479,7 @@ components:
       properties:
         keyword:
           type: string
-          description: <em>keyword received in a POST array<br></em><strong>the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character)</strong>
+          description: keyword received in a POST arraythe keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character)
           nullable: true
         type:
           type: string
@@ -36499,56 +36487,56 @@ components:
           nullable: true
         se_domain:
           type: string
-          description: <em>search engine domain in a POST array</em>
+          description: search engine domain in a POST array
           nullable: true
         location_code:
           type: integer
-          description: <em>location code in a POST array</em>
+          description: location code in a POST array
           nullable: true
         language_code:
           type: string
-          description: <em>language code in a POST array</em>
+          description: language code in a POST array
           nullable: true
         check_url:
           type: string
-          description: <em>direct URL to search engine results</em><br>you can use it to make sure that we provided accurate results
+          description: direct URL to search engine resultsyou can use it to make sure that we provided accurate results
           nullable: true
         datetime:
           type: string
-          description: '<em>date and time when the result was received</em><br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br><code class="long-string">2019-11-15 12:57:46 +00:00</code>'
+          description: 'date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00'
           nullable: true
         spell:
           type: object
           oneOf:
             - $ref: '#/components/schemas/SpellInfo'
-          description: '<em>autocorrection of the search engine</em><br>if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection'
+          description: 'autocorrection of the search engineif the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection'
           nullable: true
         refinement_chips:
           type: object
           oneOf:
             - $ref: '#/components/schemas/RefinementChipsInfo'
-          description: <em>search refinement chips</em><br>equals <code>null</code>
+          description: search refinement chipsequals null
           nullable: true
         item_types:
           type: array
           items:
             type: string
             nullable: true
-          description: '<em>types of search results in SERP</em><br>contains types of search results (<code>items</code>) found in SERP.<br>possible item types:<br><span><a href="#featured_snippet"><code>featured_snippet</code></a>, <a href="#images"><code>images</code></a>, <a href="#local_pack"><code>local_pack</code></a>, <a href="#hotels_pack"><code>hotels_pack</code></a>, <a href="#organic"><code>organic</code></a>, <a href="#paid"><code>paid</code></a>, <a href="#people_also_ask"><code>people_also_ask</code></a>, <a href="#related_searches"><code>related_searches</code></a>, <a href="#shopping"><code>shopping</code></a>, <a href="#recipes"><code>recipes</code></a>, <a href="#top_stories"><code>top_stories</code></a>, <a href="#video"><code>video</code></a></span>, <a href="#ai_overview"><code>ai_overview</code></a></span>'
+          description: 'types of search results in SERPcontains types of search results (items) found in SERP.possible item types:featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video, ai_overview'
           nullable: true
         se_results_count:
           type: integer
-          description: <em> total number of results in SERP</em>
+          description: total number of results in SERP
           format: int64
           nullable: true
         pages_count:
           type: integer
-          description: <em>total pages retrieved</em><br>total number of retrieved SERPs in the result
+          description: total pages retrievedtotal number of retrieved SERPs in the result
           format: int64
           nullable: true
         items_count:
           type: integer
-          description: <em>the number of results returned in the <strong><code>items</code></strong> array</em>
+          description: the number of results returned in the items array
           format: int64
           nullable: true
         items:
@@ -36558,7 +36546,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/BaseSerpApiElementItem'
             nullable: true
-          description: '<em>additional items present in the element</em><br>if there are none, equals <code>null</code>'
+          description: 'additional items present in the elementif there are none, equals null'
           nullable: true
     SerpYahooOrganicTaskGetAdvancedTaskInfo:
       type: object
@@ -36573,7 +36561,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/SerpYahooOrganicTaskGetAdvancedResultInfo'
                 nullable: true
-              description: <em>array of results</em>
+              description: array of results
               nullable: true
     SerpYahooOrganicTaskGetAdvancedResponseInfo:
       type: object
@@ -36588,7 +36576,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/SerpYahooOrganicTaskGetAdvancedTaskInfo'
                 nullable: true
-              description: <em>array of tasks</em>
+              description: array of tasks
               nullable: true
     SerpYahooOrganicTaskGetHtmlResultInfo:
       type: object
@@ -36840,53 +36828,58 @@ components:
       properties:
         url:
           type: string
-          description: '<em>direct URL of the search query</em><br>optional field<br>you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.<br>example:<br><code class="long-string">https://search.yahoo.com/search?p=rank+checker&amp;n=100&amp;vl=lang_en&amp;vc=us&amp;ei=UTF-8</code>'
+          description: 'direct URL of the search queryoptional fieldyou can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.example:https://search.yahoo.com/search?p=rank+checker&n=100&vl=lang_en&vc=us&ei=UTF-8'
           nullable: true
         keyword:
           type: string
-          description: '<em>keyword</em><br><strong>required field</strong><br>you can specify <strong>up to 700 characters</strong> in the <code>keyword</code> field<br><strong>all %## will be decoded (plus character ''+'' will be decoded to a space character)</strong><br>if you need to use the "%" character for your <code>keyword</code>, please specify it as "%25";<br>if you need to use the “+” character for your <code>keyword</code>, please specify it as “%2B”<p>learn more about rules and limitations of <code>keyword</code> and <code>keywords</code> fields in DataForSEO APIs in this <a href="https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis" rel="noopener noreferrer" target="_blank">Help Center article</a>'
+          description: 'keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character ''+'' will be decoded to a space character)if you need to use the "%" character for your keyword, please specify it as "%25";if you need to use the “+” character for your keyword, please specify it as “%2B”learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article'
         location_name:
           type: string
-          description: '<em>full name of search engine location</em><br><strong>required field if you don''t specify</strong> <code>location_code</code> or <code>location_coordinate</code><br><strong>if you use this field, you don''t need to specify <code>location_code</code> or <code>location_coordinate</code></strong><br>you can receive the list of available locations of the search engine with their <code>location_name</code> by making a separate request to the <code>https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations</code><br>example:<br><code class="long-string">London,England,United Kingdom</code>'
+          description: 'full name of search engine locationrequired field if you don''t specify location_code or location_coordinateif you use this field, you don''t need to specify location_code or location_coordinateyou can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/yahoo/locationsexample:London,England,United Kingdom'
+          nullable: true
         location_code:
           type: integer
-          description: '<em>search engine location code</em><br><strong>required field if you don''t specify</strong> <code>location_name</code>_or <code>location_coordinate</code><br><strong>if you use this field, you don''t need to specify <code>location_name</code> or <code>location_coordinate</code></strong><br>you can receive the list of available locations of the search engines with their <code>location_code</code> by making a separate request to the <code>https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations</code><br>example:<br><code class="long-string">2840</code>n'
+          description: 'search engine location coderequired field if you don''t specify location_name_or location_coordinateif you use this field, you don''t need to specify location_name or location_coordinateyou can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/yahoo/locationsexample:2840n'
+          nullable: true
         location_coordinate:
           type: string
-          description: '<em>GPS coordinates of a location</em><br><strong>required field if you don''t specify</strong> <code>location_name</code>_or <code>location_code</code><br><strong>if you use this field, you don''t need to specify <code>location_name</code> or <code>location_code</code></strong><br><code>location_coordinate</code> parameter should be specified in the <em>"latitude,longitude,radius"</em> format<br>the maximum number of decimal digits for <em>"latitude"</em> and <em>"longitude"</em>: 7<br>the minimum value for <em>"radius"</em>: 199.9 (mm)<br>the maximum value for <em>"radius"</em>: 199999 (mm)<br>example:<br><code class="long-string">53.476225,-2.243572,200</code>n'
+          description: 'GPS coordinates of a locationrequired field if you don''t specify location_name_or location_codeif you use this field, you don''t need to specify location_name or location_codelocation_coordinate parameter should be specified in the "latitude,longitude,radius" formatthe maximum number of decimal digits for "latitude" and "longitude": 7the minimum value for "radius": 199.9 (mm)the maximum value for "radius": 199999 (mm)example:53.476225,-2.243572,200n'
+          nullable: true
         language_name:
           type: string
-          description: '<em>full name of search engine language</em><br><strong>required field if you don''t specify</strong> <code>language_code</code><br><strong>if you use this field, you don''t need to specify <code>language_code</code></strong><br>you can receive the list of available languages of the search engine with their <code>language_name</code> by making a separate request to the <code>https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages</code><br>example:<br><code class="long-string">English</code>'
+          description: 'full name of search engine languagerequired field if you don''t specify language_codeif you use this field, you don''t need to specify language_codeyou can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/yahoo/languagesexample:English'
+          nullable: true
         language_code:
           type: string
-          description: '<em>search engine language code</em><br><strong>required field if you don''t specify</strong> <code>language_name</code><br><strong>if you use this field, you don''t need to specify <code>language_name</code></strong><br>you can receive the list of available languages of the search engine with their <code>language_code</code>_by making a separate request to the <code>https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages</code><em><br></em>example:<em><br></em><code class="long-string">en</code>n'
+          description: 'search engine language coderequired field if you don''t specify language_nameif you use this field, you don''t need to specify language_nameyou can receive the list of available languages of the search engine with their language_code_by making a separate request to the https://api.dataforseo.com/v3/serp/yahoo/languagesexample:enn'
+          nullable: true
         device:
           type: string
-          description: '<em>device type</em><br>optional field<br>return results for a specific device type<br>can take the values:<code>desktop</code>, <code>mobile</code><br>default value: <code>desktop</code>'
+          description: 'device typeoptional fieldreturn results for a specific device typecan take the values:desktop, mobiledefault value: desktop'
           nullable: true
         os:
           type: string
-          description: '<em>device operating system</em><br>optional field<br>if you specify <code>desktop</code> in the <code>device</code> field, choose from the following values: <code>windows</code>, <code>macos</code><br>default value: <code>windows</code><br>if you specify <code>mobile</code> in the <code>device</code> field, choose from the following values: <code>android</code>, <code>ios</code><br>default value: <code>android</code>'
+          description: 'device operating systemoptional fieldif you specify desktop in the device field, choose from the following values: windows, macosdefault value: windowsif you specify mobile in the device field, choose from the following values: android, iosdefault value: android'
           nullable: true
         se_domain:
           type: string
-          description: '<em>search engine domain</em><br>optional field<br>we choose the relevant search engine domain automatically according to the location and language you specify<br>however, you can set a custom search engine domain in this field<br>example:<br><code>au.search.yahoo.com</code>, <code>uk.search.yahoo.com</code>, <code>ca.search.yahoo.com</code>, etc.'
+          description: 'search engine domainoptional fieldwe choose the relevant search engine domain automatically according to the location and language you specifyhowever, you can set a custom search engine domain in this fieldexample:au.search.yahoo.com, uk.search.yahoo.com, ca.search.yahoo.com, etc.'
           nullable: true
         depth:
           type: integer
-          description: '<em>parsing depth</em><br>optional field<br>number of results in SERP<br>default value: <code>6</code><br>max value: <code>200</code><br><strong>Your account will be billed per each SERP;</strong> <br>Each Yahoo SERP can contain fewer than 10 results, so setting depth above the default value may result in additional charges <a href="https://dataforseo.com/help-center/how-many-results-scraped" rel="noopener noreferrer" target="_blank"></a>;<br>The cost can be calculated on the <a title="Pricing" href="https://dataforseo.com/pricing/serp/yahoo-serp-api" target="_blank" rel="noopener noreferrer">Pricing</a> page.'
+          description: 'parsing depthoptional fieldnumber of results in SERPdefault value: 6max value: 200Your account will be billed per each SERP; Each Yahoo SERP can contain fewer than 10 results, so setting depth above the default value may result in additional charges ;The cost can be calculated on the Pricing page.'
           nullable: true
         max_crawl_pages:
           type: integer
-          description: '<em>page crawl limit</em><br>optional field<br>number of search results pages to crawl<br>default value: <code>1</code><br>max value: <code>100</code><br><strong>Note:</strong> the <code>max_crawl_pages</code> and <code>depth</code> parameters complement each other;<br>learn more at <a href="https://dataforseo.com/help-center/what-is-max-crawl-pages-and-how-does-it-work" rel="noopener noreferrer" target="_blank">our help center</a>'
+          description: 'page crawl limitoptional fieldnumber of search results pages to crawldefault value: 1max value: 100Note: the max_crawl_pages and depth parameters complement each other;learn more at our help center'
           nullable: true
         target:
           type: string
-          description: '<em>target domain, subdomain, or webpage to get results for</em><br>optional field<br>a domain or a subdomain should be specified without <code>https://</code> and <code>www.</code><br>note that the results of <code>target</code>-specific tasks will only include SERP elements that contain a <code>url</code> string;<br>you can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;<br>examples:<br><strong><code class="long-string">example.com</code></strong>  - returns results for the website''s home page with URLs, such as <code class="long-string">https://example.com</code>, or <code class="long-string">https://www.example.com/</code>, or <code class="long-string">https://example.com/</code>;<br><strong><code class="long-string">example.com*</code></strong> - returns results for the domain, including all its pages;<br><strong><code class="long-string">*example.com*</code></strong> - returns results for the entire domain, including all its pages and subdomains;<br><strong><code class="long-string">*example.com</code></strong>  - returns results for the home page regardless of the subdomain, such as <code class="long-string">https://en.example.com</code>; <br><strong><code class="long-string">example.com/example-page</code></strong>  - returns results for the exact URL;<br><strong><code class="long-string">example.com/example-page*</code></strong>  - returns results for all domain''s URLs that start with the specified string'
+          description: 'target domain, subdomain, or webpage to get results foroptional fielda domain or a subdomain should be specified without https:// and www.note that the results of target-specific tasks will only include SERP elements that contain a url string;you can also use a wildcard (‘’) character to specify the search pattern in SERP and narrow down the results;examples:example.com  - returns results for the website''s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;example.com - returns results for the domain, including all its pages;example.com - returns results for the entire domain, including all its pages and subdomains;example.com  - returns results for the home page regardless of the subdomain, such as https://en.example.com; example.com/example-page  - returns results for the exact URL;example.com/example-page  - returns results for all domain''s URLs that start with the specified string'
           nullable: true
         search_param:
           type: string
-          description: <em>additional parameters of the search query</em><br>optional field<br><a href="https://dataforseo.com/help-center/yahoo-search-engine-parameters-and-how-to-use-them">get the list of available parameters and additional details here</a>
+          description: additional parameters of the search queryoptional fieldget the list of available parameters and additional details here
           nullable: true
         stop_crawl_on_match:
           type: array
@@ -36897,9 +36890,17 @@ components:
             nullable: true
           description: "array of targets to stop crawling\noptional field\nif specified, the response will contain SERP results up to and including the specified match_value;\nyou can specify up to 10 target values in this array\nexample:\n\"stop_crawl_on_match\":[{\"match_value\":\"dataforseo.com\",\"match_type\":\"with_subdomains\"}]\nlearn more about this parameter on our Help Center - https://dataforseo.com/help-center/using-the-stop_crawl_on_match-parameter-in-serp-api\nYour account will be billed per each SERP crawled through the specified targets"
           nullable: true
+        match_value:
+          type: string
+          description: 'target domain, subdomain, or wildcard valuerequired field if stop_crawl_on_match is specifiedspecify a target domain, subdomain, or wildcard value;Note: domain or subdomain must be specified without a request protocol;example: "match_value": "dataforseo.com","match_value": "/blog/post-*"'
+          nullable: true
+        match_type:
+          type: string
+          description: 'target match typerequired field if stop_crawl_on_match is specifiedtype of match for the match_valuepossible values: domain – specific domain or subdomainwith_subdomains – main domain and subdomainswildcard –  wildcard pattern'
+          nullable: true
         tag:
           type: string
-          description: <em>user-defined task identifier</em><br>optional field<br><em>the character limit is 255</em><br>you can use this parameter to identify the task and match it with the result<br>you will find the specified <code>tag</code> value in the <code>data</code> object of the response
+          description: user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response
           nullable: true
       example:
         - language_code: en
@@ -36910,7 +36911,7 @@ components:
       properties:
         keyword:
           type: string
-          description: <em>keyword received in a POST array<br></em><strong>the keyword is returned with decoded %## (plus character '+' will be decoded to a space character)</strong>
+          description: keyword received in a POST arraythe keyword is returned with decoded %## (plus character '+' will be decoded to a space character)
           nullable: true
         type:
           type: string
@@ -36918,56 +36919,56 @@ components:
           nullable: true
         se_domain:
           type: string
-          description: <em>search engine domain in a POST array</em>
+          description: search engine domain in a POST array
           nullable: true
         location_code:
           type: integer
-          description: <em>location code in a POST array</em>
+          description: location code in a POST array
           nullable: true
         language_code:
           type: string
-          description: <em>language code in a POST array</em>
+          description: language code in a POST array
           nullable: true
         check_url:
           type: string
-          description: <em>direct URL to search engine results</em><br>you can use it to make sure that we provided accurate results
+          description: direct URL to search engine resultsyou can use it to make sure that we provided accurate results
           nullable: true
         datetime:
           type: string
-          description: '<em>date and time when the result was received</em><br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br><code class="long-string">2019-11-15 12:57:46 +00:00</code>'
+          description: 'date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00'
           nullable: true
         spell:
           type: object
           oneOf:
             - $ref: '#/components/schemas/SpellInfo'
-          description: '<em>autocorrection of the search engine</em><br>if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection'
+          description: 'autocorrection of the search engineif the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection'
           nullable: true
         refinement_chips:
           type: object
           oneOf:
             - $ref: '#/components/schemas/RefinementChipsInfo'
-          description: <em>search refinement chips</em><br>equals <code>null</code>
+          description: search refinement chipsequals null
           nullable: true
         item_types:
           type: array
           items:
             type: string
             nullable: true
-          description: '<em>types of search results in SERP</em><br>contains types of search results (<code>items</code>) found in SERP.<br>possible item types:<br><span><a href="#featured_snippet"><code>featured_snippet</code></a>, <a href="#images"><code>images</code></a>, <a href="#local_pack"><code>local_pack</code></a>, <a href="#hotels_pack"><code>hotels_pack</code></a>, <a href="#organic"><code>organic</code></a>, <a href="#paid"><code>paid</code></a>, <a href="#people_also_ask"><code>people_also_ask</code></a>, <a href="#related_searches"><code>related_searches</code></a>, <a href="#shopping"><code>shopping</code></a>, <a href="#recipes"><code>recipes</code></a>, <a href="#top_stories"><code>top_stories</code></a>, <a href="#video"><code>video</code></a></span>, <a href="#ai_overview"><code>ai_overview</code></a></span>'
+          description: 'types of search results in SERPcontains types of search results (items) found in SERP.possible item types:featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video, ai_overview'
           nullable: true
         se_results_count:
           type: integer
-          description: <em> total number of results in SERP</em>
+          description: total number of results in SERP
           format: int64
           nullable: true
         pages_count:
           type: integer
-          description: <em>total pages retrieved</em><br>total number of retrieved SERPs in the result
+          description: total pages retrievedtotal number of retrieved SERPs in the result
           format: int64
           nullable: true
         items_count:
           type: integer
-          description: <em>the number of results returned in the <strong><code>items</code></strong> array</em>
+          description: the number of results returned in the items array
           format: int64
           nullable: true
         items:
@@ -36977,7 +36978,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/BaseSerpApiElementItem'
             nullable: true
-          description: <em>elements of search results found in SERP</em>
+          description: elements of search results found in SERP
           nullable: true
     SerpYahooOrganicLiveAdvancedTaskInfo:
       type: object
@@ -36992,7 +36993,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/SerpYahooOrganicLiveAdvancedResultInfo'
                 nullable: true
-              description: <em>array of results</em>
+              description: array of results
               nullable: true
     SerpYahooOrganicLiveAdvancedResponseInfo:
       type: object
@@ -37007,7 +37008,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/SerpYahooOrganicLiveAdvancedTaskInfo'
                 nullable: true
-              description: <em>array of tasks</em>
+              description: array of tasks
               nullable: true
     SerpYahooOrganicLiveHtmlRequestInfo:
       type: object
@@ -37866,7 +37867,7 @@ components:
           nullable: true
         depth:
           type: integer
-          description: '<em>parsing depth</em><br>optional field<br>number of results in SERP<br>default value: <code>15</code><br>max value: <code>700</code><br><strong>Your account will be billed per each SERP containing up to 15 results;</strong> <br>Setting depth above 15 may result in additional charges <a href="https://dataforseo.com/help-center/how-many-results-scraped" rel="noopener noreferrer" target="_blank">if the search engine returns more than 15 results</a>;<br>The cost can be calculated on the <a title="Pricing" href="https://dataforseo.com/pricing/serp/naver-organic-serp-api" target="_blank" rel="noopener noreferrer">Pricing</a> page.'
+          description: '<em>parsing depth</em><br>optional field<br>number of results in SERP<br>default value: <code>20</code><br>max value: <code>700</code><br><strong>Your account will be billed per each SERP containing up to 20 results;</strong> <br>Setting depth above 20 may result in additional charges <a href="https://dataforseo.com/help-center/how-many-results-scraped" rel="noopener noreferrer" target="_blank">if the search engine returns more than 20 results</a>;<br>The cost can be calculated on the <a title="Pricing" href="https://dataforseo.com/pricing/serp/naver-organic-serp-api" target="_blank" rel="noopener noreferrer">Pricing</a> page.'
           nullable: true
         max_crawl_pages:
           type: integer
@@ -42130,8 +42131,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     DataforseoLabsIdListResultInfo:
@@ -44885,7 +44886,7 @@ components:
           type: integer
           description: <em>average main domain rank</em><br>            learn more about the metric and its calculation formula in <a href="https://dataforseo.com/help-center/what_is_rank_in_backlinks_api" rel="noopener noreferrer" target="_blank">this help center article</a>
           nullable: true
-    DataLabsPaidSerpElementItem:
+    DataLabsLocalPackSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -44898,57 +44899,31 @@ components:
               type: string
               description: <em>title of the result in SERP</em>
               nullable: true
-            domain:
-              type: string
-              description: <em>subdomain in SERP</em>
-              nullable: true
             description:
               type: string
               description: <em>description of the results element in SERP</em>
               nullable: true
-            breadcrumb:
+            domain:
               type: string
-              description: <em>breadcrumb in SERP</em>
+              description: <em>subdomain in SERP</em>
+              nullable: true
+            phone:
+              type: string
+              description: <em>phone number</em>
               nullable: true
             url:
               type: string
               description: <em> relevant URL in SERP</em>
               nullable: true
-            checks:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: '<em>array of properties detected for the SERP element</em><br>lists the properties that are true for this element<br>each value in the array represents a detected property <br>example:<br>if <code>is_image</code> is present in the array, the element contains an image<br>possible values in the array:<br><code>is_image</code>, <code>is_video</code>, <code>is_featured_snippet</code>, <code>amp_version</code>, <code>is_malicious</code>, <code>is_web_story</code>, <code>is_highly_cited</code><br>equals <code>null</code> if none of the properties are detected for the element<br>learn more about the <code>checks</code> array in <a href="https://dataforseo.com/help-center/whats-a-checks-array-in-the-google-organic-serp-api" target="_blank">this Help Center article</a>'
+            is_paid:
+              type: boolean
+              description: <em>indicates whether the element is an ad</em>
               nullable: true
-            highlighted:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: <em>words highlighted in bold within the results <code>description</code></em>
-              nullable: true
-            extra:
+            rating:
               type: object
-              additionalProperties:
-                type: string
-                nullable: true
-              nullable: true
-            description_rows:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: '<em>extended description</em><br>            if there is none, equals <code>null</code>'
-              nullable: true
-            links:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/AdLinkElement'
-                nullable: true
-              description: '<em>sitelinks</em><br>            the links shown below some of Google''s search results<br>            if there are none, equals <code>null</code>'
+              oneOf:
+                - $ref: '#/components/schemas/RatingInfo'
+              description: <em>the item's rating </em><br>            the popularity rate based on reviews and displayed in SERP
               nullable: true
             main_domain:
               type: string
@@ -45067,6 +45042,244 @@ components:
             - $ref: '#/components/schemas/RankedSerpElement'
           description: <em>contains data on the domain's SERP element found for the returned <code>keyword</code></em>
           nullable: true
+    DataLabsFeaturedSnippetSerpElementItem:
+      type: object
+      allOf:
+        - type: object
+          oneOf:
+            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
+          nullable: true
+        - type: object
+          properties:
+            domain:
+              type: string
+              description: <em>subdomain in SERP</em>
+              nullable: true
+            title:
+              type: string
+              description: <em>title of the result in SERP</em>
+              nullable: true
+            featured_title:
+              type: string
+              description: <em>the title of the featured snippets source page</em>
+              nullable: true
+            description:
+              type: string
+              description: <em>description of the results element in SERP</em>
+              nullable: true
+            url:
+              type: string
+              description: <em> relevant URL in SERP</em>
+              nullable: true
+            table:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/Table'
+              description: '<em>results table</em><br>            if there are none, equals <code>null</code>'
+              nullable: true
+            main_domain:
+              type: string
+              description: <em>primary domain name in SERP</em>
+              nullable: true
+            relative_url:
+              type: string
+              description: <em>URL in SERP that does not specify the HTTPs protocol and domain name</em>
+              nullable: true
+            etv:
+              type: number
+              description: <em>estimated traffic volume</em><br>            estimated organic monthly traffic to the domain or webpage;<br>            calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;<br>            learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-is-etv-calculated" rel="noopener noreferrer" target="_blank">this help center article</a>
+              nullable: true
+            estimated_paid_traffic_cost:
+              type: number
+              description: <em>estimated cost of converting organic search traffic into paid</em><br>            represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;<br>            the metric is calculated as the product of organic <code>etv</code> and paid <code>cpc</code> values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;<br>            learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-is-traffic-cost-calculated" rel="noopener noreferrer" target="_blank">this help center article</a>
+              nullable: true
+            clickstream_etv:
+              type: number
+              description: '<em>estimated traffic volume based on clickstream data</em><br>            calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;<br>            to retrieve results for this field, the parameter <code>include_clickstream_data</code> must be set to <code>true</code>;<br>            learn more about how the metric is calculated in this <a href="https://dataforseo.com/help-center/whats-clickstream-estimated-traffic-volume-and-how-is-it-calculated" rel="noopener noreferrer" target="_blank">help center article</a>'
+              format: double
+              nullable: true
+            rank_changes:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RankChanges'
+              properties:
+                previous_rank_absolute:
+                  type: number
+                  description: "previous absolute rank in SERP\nindicates previous rank of the element in Google SERP;\nif this element is new, the value will be null"
+                  nullable: true
+                is_new:
+                  type: boolean
+                  description: "element was previously present in SERP\nif the value is true, previously collected SERP didn’t contain this element"
+                is_up:
+                  type: boolean
+                  description: "rank of this element went up\nif the value is true, position of the element in SERP is higher compared to the previous check"
+                is_down:
+                  type: boolean
+                  description: "rank of this element went down\nif the value is true, position of the element in SERP is lower compared to the previous check"
+              description: <em>changes in rankings</em><br>            contains information about the ranking changes of the SERP element since the <code>previous_updated_time</code>
+              nullable: true
+            backlinks_info:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/BacklinksInfo'
+              description: <em>backlinks information for the relevant page URL</em>
+              nullable: true
+            rank_info:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RankInfo'
+              description: <em>page and domain rank information</em>
+              nullable: true
+    DataLabsOrganicSerpElementItem:
+      type: object
+      allOf:
+        - type: object
+          oneOf:
+            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
+          nullable: true
+        - type: object
+          properties:
+            domain:
+              type: string
+              description: <em>subdomain in SERP</em>
+              nullable: true
+            title:
+              type: string
+              description: <em>title of the result in SERP</em>
+              nullable: true
+            url:
+              type: string
+              description: <em> relevant URL in SERP</em>
+              nullable: true
+            breadcrumb:
+              type: string
+              description: <em>breadcrumb in SERP</em>
+              nullable: true
+            website_name:
+              type: string
+              description: <em>relevant website name in SERP</em>
+              nullable: true
+            is_image:
+              type: boolean
+              description: <em>indicates whether the element contains an <code class="prettyprint">image</code></em><br><strong>Note:</strong> this check no longer appears in SERP
+              nullable: true
+            is_video:
+              type: boolean
+              description: <em>indicates whether the element contains a <code class="prettyprint">video</code></em><br><strong>Note:</strong> this check no longer appears in SERP
+              nullable: true
+            is_featured_snippet:
+              type: boolean
+              description: <em>indicates whether the element is a <code class="prettyprint">featured_snippet</code></em><br><strong>Note:</strong> this check no longer appears in SERP
+              nullable: true
+            is_malicious:
+              type: boolean
+              description: <em>indicates whether the element is marked as malicious</em><br><strong>Note:</strong> this check no longer appears in SERP
+              nullable: true
+            checks:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: '<em>array of properties detected for the SERP element</em><br>lists the properties that are true for this element<br>each value in the array represents a detected property <br>example:<br>if <code>is_image</code> is present in the array, the element contains an image<br>possible values in the array:<br><code>is_image</code>, <code>is_video</code>, <code>is_featured_snippet</code>, <code>amp_version</code>, <code>is_malicious</code>, <code>is_web_story</code>, <code>is_highly_cited</code><br>equals <code>null</code> if none of the properties are detected for the element<br>learn more about the <code>checks</code> array in <a href="https://dataforseo.com/help-center/whats-a-checks-array-in-the-google-organic-serp-api" target="_blank">this Help Center article</a>'
+              nullable: true
+            description:
+              type: string
+              description: <em>description of the results element in SERP</em>
+              nullable: true
+            pre_snippet:
+              type: string
+              description: <em>includes additional information appended before the result description in SERP</em>
+              nullable: true
+            extended_snippet:
+              type: string
+              description: <em>includes additional information appended after the result description in SERP</em>
+              nullable: true
+            amp_version:
+              type: boolean
+              description: <em>Accelerated Mobile Pages</em><br>indicates whether an item has the Accelerated Mobile Page (AMP) version<br><strong>Note:</strong> this check no longer appears in SERP
+              nullable: true
+            rating:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RatingInfo'
+              description: <em>the item's rating </em><br>            the popularity rate based on reviews and displayed in SERP
+              nullable: true
+            highlighted:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: <em>words highlighted in bold within the results <code>description</code></em>
+              nullable: true
+            links:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/LinkElement'
+                nullable: true
+              description: '<em>sitelinks</em><br>            the links shown below some of Google''s search results<br>            if there are none, equals <code>null</code>'
+              nullable: true
+            about_this_result:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/AboutThisResultElement'
+              description: <em>contains information from the 'About this result' panel</em><br>            <a href="https://blog.google/products/search/learn-more-and-get-more-from-search/">'About this result' panel</a> provides additional context about why Google returned this result for the given query;<br>            this feature appears after clicking on the three dots next to most results
+              nullable: true
+              deprecated: true
+            main_domain:
+              type: string
+              description: <em>primary domain name in SERP</em>
+              nullable: true
+            relative_url:
+              type: string
+              description: <em>URL in SERP that does not specify the HTTPs protocol and domain name</em>
+              nullable: true
+            etv:
+              type: number
+              description: <em>estimated traffic volume</em><br>            estimated organic monthly traffic to the domain or webpage;<br>            calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;<br>            learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-is-etv-calculated" rel="noopener noreferrer" target="_blank">this help center article</a>
+              nullable: true
+            estimated_paid_traffic_cost:
+              type: number
+              description: <em>estimated cost of converting organic search traffic into paid</em><br>            represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;<br>            the metric is calculated as the product of organic <code>etv</code> and paid <code>cpc</code> values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;<br>            learn more about how the metric is calculated in <a href="https://dataforseo.com/help-center/how-is-traffic-cost-calculated" rel="noopener noreferrer" target="_blank">this help center article</a>
+              nullable: true
+            clickstream_etv:
+              type: number
+              description: '<em>estimated traffic volume based on clickstream data</em><br>            calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;<br>            to retrieve results for this field, the parameter <code>include_clickstream_data</code> must be set to <code>true</code>;<br>            learn more about how the metric is calculated in this <a href="https://dataforseo.com/help-center/whats-clickstream-estimated-traffic-volume-and-how-is-it-calculated" rel="noopener noreferrer" target="_blank">help center article</a>'
+              format: double
+              nullable: true
+            rank_changes:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RankChanges'
+              properties:
+                previous_rank_absolute:
+                  type: number
+                  description: "previous absolute rank in SERP\nindicates previous rank of the element in Google SERP;\nif this element is new, the value will be null"
+                  nullable: true
+                is_new:
+                  type: boolean
+                  description: "element was previously present in SERP\nif the value is true, previously collected SERP didn’t contain this element"
+                is_up:
+                  type: boolean
+                  description: "rank of this element went up\nif the value is true, position of the element in SERP is higher compared to the previous check"
+                is_down:
+                  type: boolean
+                  description: "rank of this element went down\nif the value is true, position of the element in SERP is lower compared to the previous check"
+              description: <em>changes in rankings</em><br>            contains information about the ranking changes of the SERP element since the <code>previous_updated_time</code>
+              nullable: true
+            backlinks_info:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/BacklinksInfo'
+              description: <em>backlinks information for the relevant page URL</em>
+              nullable: true
+            rank_info:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RankInfo'
+              description: <em>page and domain rank information</em>
+              nullable: true
     DataforseoLabsGoogleRankedKeywordsLiveResultInfo:
       type: object
       properties:
@@ -45605,7 +45818,7 @@ components:
           location_code: 2840
           include_serp_info: true
           limit: 3
-    DataLabsFeaturedSnippetSerpElementItem:
+    DataLabsPaidSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -45614,31 +45827,61 @@ components:
           nullable: true
         - type: object
           properties:
-            domain:
-              type: string
-              description: subdomain in SERP
-              nullable: true
             title:
               type: string
               description: title of the result in SERP
               nullable: true
-            featured_title:
+            domain:
               type: string
-              description: the title of the featured snippets source page
+              description: subdomain in SERP
               nullable: true
             description:
               type: string
               description: description of the results element in SERP
               nullable: true
+            breadcrumb:
+              type: string
+              description: breadcrumb in SERP
+              nullable: true
             url:
               type: string
               description: relevant URL in SERP
               nullable: true
-            table:
+            checks:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: 'array of properties detected for the SERP elementlists the properties that are true for this elementeach value in the array represents a detected property example:if is_image is present in the array, the element contains an imagepossible values in the array:is_image, is_video, is_featured_snippet, amp_version, is_malicious, is_web_story, is_highly_citedequals null if none of the properties are detected for the elementlearn more about the checks array in this Help Center article'
+              nullable: true
+            highlighted:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: words highlighted in bold within the results description
+              nullable: true
+            extra:
               type: object
-              oneOf:
-                - $ref: '#/components/schemas/Table'
-              description: 'results table            if there are none, equals null'
+              additionalProperties:
+                type: string
+                nullable: true
+              nullable: true
+            description_rows:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: 'extended description            if there is none, equals null'
+              nullable: true
+            links:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AdLinkElement'
+                nullable: true
+              description: 'sitelinks            the links shown below some of Google''s search results            if there are none, equals null'
               nullable: true
             main_domain:
               type: string
@@ -45718,243 +45961,6 @@ components:
             - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
           description: contains data on the second domain's SERP element found for the returned keyword            the list of supported SERP elements can be found below
           nullable: true
-    DataLabsLocalPackSerpElementItem:
-      type: object
-      allOf:
-        - type: object
-          oneOf:
-            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
-          nullable: true
-        - type: object
-          properties:
-            title:
-              type: string
-              description: title of the result in SERP
-              nullable: true
-            description:
-              type: string
-              description: description of the results element in SERP
-              nullable: true
-            domain:
-              type: string
-              description: subdomain in SERP
-              nullable: true
-            phone:
-              type: string
-              description: phone number
-              nullable: true
-            url:
-              type: string
-              description: relevant URL in SERP
-              nullable: true
-            is_paid:
-              type: boolean
-              description: indicates whether the element is an ad
-              nullable: true
-            rating:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RatingInfo'
-              description: the item's rating             the popularity rate based on reviews and displayed in SERP
-              nullable: true
-            main_domain:
-              type: string
-              description: primary domain name in SERP
-              nullable: true
-            relative_url:
-              type: string
-              description: URL in SERP that does not specify the HTTPs protocol and domain name
-              nullable: true
-            etv:
-              type: number
-              description: estimated traffic volume            estimated organic monthly traffic to the domain            calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword            learn more about how the metric is calculated in this help center article
-              nullable: true
-            estimated_paid_traffic_cost:
-              type: number
-              description: estimated cost of paid monthly search traffic            represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values            learn more about how the metric is calculated in this help center article
-              nullable: true
-            clickstream_etv:
-              type: number
-              description: 'estimated traffic volume based on clickstream data            calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for            to retrieve results for this field, the parameter include_clickstream_data must be set to true            learn more about how the metric is calculated in this help center article'
-              format: double
-              nullable: true
-            rank_changes:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RankChanges'
-              properties:
-                previous_rank_absolute:
-                  type: number
-                  description: "previous absolute rank in SERP\nindicates previous rank of the element in Google SERP;\nif this element is new, the value will be null"
-                  nullable: true
-                is_new:
-                  type: boolean
-                  description: "element was previously present in SERP\nif the value is true, previously collected SERP didn’t contain this element"
-                is_up:
-                  type: boolean
-                  description: "rank of this element went up\nif the value is true, position of the element in SERP is higher compared to the previous check"
-                is_down:
-                  type: boolean
-                  description: "rank of this element went down\nif the value is true, position of the element in SERP is lower compared to the previous check"
-              description: changes in rankings            contains information about the ranking changes of the SERP element since the previous_updated_time
-              nullable: true
-            backlinks_info:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/BacklinksInfo'
-              description: backlinks information for the ranked website
-              nullable: true
-            rank_info:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RankInfo'
-              description: page and domain rank information
-              nullable: true
-    DataLabsOrganicSerpElementItem:
-      type: object
-      allOf:
-        - type: object
-          oneOf:
-            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
-          nullable: true
-        - type: object
-          properties:
-            domain:
-              type: string
-              description: subdomain in SERP
-              nullable: true
-            title:
-              type: string
-              description: title of the result in SERP
-              nullable: true
-            url:
-              type: string
-              description: relevant URL in SERP
-              nullable: true
-            breadcrumb:
-              type: string
-              description: breadcrumb in SERP
-              nullable: true
-            website_name:
-              type: string
-              nullable: true
-            is_image:
-              type: boolean
-              description: 'indicates whether the element contains an imageNote: this check no longer appears in SERP'
-              nullable: true
-            is_video:
-              type: boolean
-              description: 'indicates whether the element contains a videoNote: this check no longer appears in SERP'
-              nullable: true
-            is_featured_snippet:
-              type: boolean
-              description: 'indicates whether the element is a featured_snippetNote: this check no longer appears in SERP'
-              nullable: true
-            is_malicious:
-              type: boolean
-              description: 'indicates whether the element is marked as maliciousNote: this check no longer appears in SERP'
-              nullable: true
-            checks:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: 'array of properties detected for the SERP elementlists the properties that are true for this elementeach value in the array represents a detected property example:if is_image is present in the array, the element contains an imagepossible values in the array:is_image, is_video, is_featured_snippet, amp_version, is_malicious, is_web_story, is_highly_citedequals null if none of the properties are detected for the elementlearn more about the checks array in this Help Center article'
-              nullable: true
-            description:
-              type: string
-              description: description of the results element in SERP
-              nullable: true
-            pre_snippet:
-              type: string
-              nullable: true
-            extended_snippet:
-              type: string
-              nullable: true
-            amp_version:
-              type: boolean
-              nullable: true
-            rating:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RatingInfo'
-              description: the item's rating             the popularity rate based on reviews and displayed in SERP
-              nullable: true
-            highlighted:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: words highlighted in bold within the results description
-              nullable: true
-            links:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/LinkElement'
-                nullable: true
-              description: 'sitelinks            the links shown below some of Google''s search results            if there are none, equals null'
-              nullable: true
-            about_this_result:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/AboutThisResultElement'
-              nullable: true
-              deprecated: true
-            main_domain:
-              type: string
-              description: primary domain name in SERP
-              nullable: true
-            relative_url:
-              type: string
-              description: URL in SERP that does not specify the HTTPs protocol and domain name
-              nullable: true
-            etv:
-              type: number
-              description: estimated traffic volume            estimated organic monthly traffic to the domain            calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword            learn more about how the metric is calculated in this help center article
-              nullable: true
-            estimated_paid_traffic_cost:
-              type: number
-              description: estimated cost of paid monthly search traffic            represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values            learn more about how the metric is calculated in this help center article
-              nullable: true
-            clickstream_etv:
-              type: number
-              description: 'estimated traffic volume based on clickstream data            calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for            to retrieve results for this field, the parameter include_clickstream_data must be set to true            learn more about how the metric is calculated in this help center article'
-              format: double
-              nullable: true
-            rank_changes:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RankChanges'
-              properties:
-                previous_rank_absolute:
-                  type: number
-                  description: "previous absolute rank in SERP\nindicates previous rank of the element in Google SERP;\nif this element is new, the value will be null"
-                  nullable: true
-                is_new:
-                  type: boolean
-                  description: "element was previously present in SERP\nif the value is true, previously collected SERP didn’t contain this element"
-                is_up:
-                  type: boolean
-                  description: "rank of this element went up\nif the value is true, position of the element in SERP is higher compared to the previous check"
-                is_down:
-                  type: boolean
-                  description: "rank of this element went down\nif the value is true, position of the element in SERP is lower compared to the previous check"
-              description: changes in rankings            contains information about the ranking changes of the SERP element since the previous_updated_time
-              nullable: true
-            backlinks_info:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/BacklinksInfo'
-              description: backlinks information for the ranked website
-              nullable: true
-            rank_info:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RankInfo'
-              description: page and domain rank information
-              nullable: true
     DataforseoLabsGoogleDomainIntersectionLiveResultInfo:
       type: object
       properties:
@@ -46520,8 +46526,8 @@ components:
           nullable: true
       example:
         - keyword: albert einstein
-          datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+          datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           location_code: 2840
           language_code: en
           limit: 10
@@ -47085,7 +47091,7 @@ components:
               type: string
               description: <em> relevant URL in SERP</em>
               nullable: true
-    GooglePostsSerpElementItem:
+    MentionCarouselSerpElementItem:
       type: object
       allOf:
         - type: object
@@ -47102,17 +47108,18 @@ components:
               type: integer
               description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
               nullable: true
-            posts_id:
+            title:
               type: string
-              description: the identifier of the google_posts feature
+              description: title of a given link element
               nullable: true
-            feature:
-              type: string
-              description: the additional feature of the review
-              nullable: true
-            cid:
-              type: string
-              description: google-defined client id
+            items:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/MentionCarouselElement'
+                nullable: true
+              description: contains arrays of elements available in the list
               nullable: true
       deprecated: true
     DataLabsPeopleAlsoAskSerpElementItem:
@@ -47858,7 +47865,7 @@ components:
           type: array
           items:
             type: string
-          description: 'search results typeindicates type of search results included in the responseoptional fieldpossible values: ["organic", "paid", "featured_snippet", "local_pack"]default value: ["organic", "paid"]'
+          description: 'search results typeindicates type of search results included in the responseoptional fieldpossible values: ["organic", "paid", "featured_snippet", "local_pack", "ai_overview_reference"]default value: ["organic", "paid"]'
           nullable: true
         limit:
           type: integer
@@ -49011,47 +49018,36 @@ components:
           location_code: 2840
           limit: 5
           include_seed_keyword: true
-    CoursesElement:
+    GooglePostsSerpElementItem:
       type: object
-      properties:
-        type:
-          type: string
-          description: type of element
-          nullable: true
-        title:
-          type: string
-          description: title of the row
-          nullable: true
-        url:
-          type: string
-          description: URL of element
-          nullable: true
-        domain:
-          type: string
-          description: domain where a link points
-          nullable: true
-        source:
-          type: string
-          description: "source of the element\nindicates the source of information included in the top_stories_element"
-          nullable: true
-        description:
-          type: string
-          description: description of the results element in SERP
-          nullable: true
-        date:
-          type: string
-          description: the date when the page source of the element was published
-          nullable: true
-        image_url:
-          type: string
-          description: URL of the image
-          nullable: true
-        rating:
-          type: object
+      allOf:
+        - type: object
           oneOf:
-            - $ref: '#/components/schemas/RatingInfo'
-          description: "the element’s rating \nthe popularity rate based on reviews and displayed in SERP"
+            - $ref: '#/components/schemas/BaseSerpApiElementItem'
           nullable: true
+        - type: object
+          properties:
+            rank_group:
+              type: integer
+              description: "group rank in SERP\nposition within a group of elements with identical type values;\npositions of elements with different type values are omitted from rank_group;\nalways equals 0 for desktop"
+              nullable: true
+            rank_absolute:
+              type: integer
+              description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
+              nullable: true
+            posts_id:
+              type: string
+              description: the identifier of the google_posts feature
+              nullable: true
+            feature:
+              type: string
+              description: the additional feature of the review
+              nullable: true
+            cid:
+              type: string
+              description: google-defined client id
+              nullable: true
+      deprecated: true
     DataforseoLabsAmazonRelatedKeywordsLiveItem:
       type: object
       properties:
@@ -51105,8 +51101,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     DomainAnalyticsIdListResultInfo:
@@ -52678,8 +52674,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     KeywordsDataIdListResultInfo:
@@ -57655,7 +57651,7 @@ components:
           description: '<em>device type</em><br>indicates for what device type the data is provided;<br>possible values: <code>all</code>, <code>mobile</code>, <code>desktop</code>, <code>tablet</code>'
           nullable: true
         competition:
-          type: integer
+          type: number
           description: '<em>competition</em><br>represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.<br>Possible values: <code>0.1</code>, <code>0.5</code>,<code>0.9</code><code>0.1</code> - low competition,<br><code>0.5</code> - medium competition,<br><code>0.9</code> - high competition;<br>if there is no data the value is <code>null</code>'
           nullable: true
         cpc:
@@ -58080,6 +58076,47 @@ components:
             - dataforseo
             - seo
             - ranking
+    CoursesElement:
+      type: object
+      properties:
+        type:
+          type: string
+          description: type of element
+          nullable: true
+        title:
+          type: string
+          description: title of the row
+          nullable: true
+        url:
+          type: string
+          description: URL of element
+          nullable: true
+        domain:
+          type: string
+          description: domain where a link points
+          nullable: true
+        source:
+          type: string
+          description: "source of the element\nindicates the source of information included in the top_stories_element"
+          nullable: true
+        description:
+          type: string
+          description: description of the results element in SERP
+          nullable: true
+        date:
+          type: string
+          description: the date when the page source of the element was published
+          nullable: true
+        image_url:
+          type: string
+          description: URL of the image
+          nullable: true
+        rating:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/RatingInfo'
+          description: "the element’s rating \nthe popularity rate based on reviews and displayed in SERP"
+          nullable: true
     KeywordsDataBingKeywordPerformanceLiveResultInfo:
       type: object
       properties:
@@ -58938,8 +58975,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     BacklinksIdListResultInfo:
@@ -61992,6 +62029,10 @@ components:
           nullable: true
         referring_links_countries:
           type: object
+          additionalProperties:
+            type: integer
+            format: int64
+            nullable: true
           description: <em>ISO country codes of the referring links</em><br>indicates ISO country codes of the domains where the referring links are located and the link count per each country
           nullable: true
     IntersectionSummaryInfo:
@@ -63122,7 +63163,7 @@ components:
             - https://variety.com/
             - https://stackoverflow.com/
             - www.trustpilot.com
-          date_from: '2026-09-26 08:39:25'
+          date_from: '2026-10-10 06:52:48'
     BacklinksBulkNewLostBacklinksLiveItem:
       type: object
       properties:
@@ -63215,7 +63256,7 @@ components:
             - https://variety.com/
             - https://stackoverflow.com/
             - www.trustpilot.com
-          datetime_from: 2026-39-26
+          datetime_from: 2026-52-10
     BacklinksBulkNewLostReferringDomainsLiveItem:
       type: object
       properties:
@@ -64920,6 +64961,25 @@ components:
                 nullable: true
               description: <em>reasoning chain sections</em><br>array of objects containing the reasoning chain sections generated by the LLM
               nullable: true
+    SearchResults:
+      type: object
+      properties:
+        title:
+          type: string
+          description: <em>the domain name or title of the quoted source</em>
+          nullable: true
+        url:
+          type: string
+          description: <em>URL of the quoted source</em>
+          nullable: true
+        date:
+          type: string
+          description: '<em>publishing date</em><br>date when the page appearing in the search result was published or indexed<br> in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”'
+          nullable: true
+        snippet:
+          type: string
+          description: <em>text snippet in the search result</em>
+          nullable: true
     AiOptimizationChatGptLlmResponsesLiveResultInfo:
       type: object
       properties:
@@ -64966,6 +65026,15 @@ components:
             type: string
             nullable: true
           description: <em>array of fan-out queries</em><br>contains related search queries derived from the main query to provide a more comprehensive response
+          nullable: true
+        search_results:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/SearchResults'
+            nullable: true
+          description: <em>array of search results</em><br>contains objects with search results relevant to the user query and model's response
           nullable: true
     AiOptimizationChatGptLlmResponsesLiveTaskInfo:
       type: object
@@ -65196,6 +65265,15 @@ components:
             nullable: true
           description: <em>array of fan-out queries</em><br>contains related search queries derived from the main query to provide a more comprehensive response
           nullable: true
+        search_results:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/SearchResults'
+            nullable: true
+          description: <em>array of search results</em><br>contains objects with search results relevant to the user query and model's response
+          nullable: true
     AiOptimizationChatGptLlmResponsesTaskGetTaskInfo:
       type: object
       allOf:
@@ -65388,6 +65466,15 @@ components:
             type: string
             nullable: true
           description: <em>array of fan-out queries</em><br>contains related search queries derived from the main query to provide a more comprehensive response
+          nullable: true
+        search_results:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/SearchResults'
+            nullable: true
+          description: <em>array of search results</em><br>contains objects with search results relevant to the user query and model's response
           nullable: true
     AiOptimizationClaudeLlmResponsesLiveTaskInfo:
       type: object
@@ -65625,6 +65712,15 @@ components:
             type: string
             nullable: true
           description: <em>array of fan-out queries</em><br>contains related search queries derived from the main query to provide a more comprehensive response
+          nullable: true
+        search_results:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/SearchResults'
+            nullable: true
+          description: <em>array of search results</em><br>contains objects with search results relevant to the user query and model's response
           nullable: true
     AiOptimizationClaudeLlmResponsesTaskGetTaskInfo:
       type: object
@@ -66198,8 +66294,20 @@ components:
           description: <em>array of response items</em><br>contains structured AI response data
           nullable: true
         fan_out_queries:
-          type: object
+          type: array
+          items:
+            type: string
+            nullable: true
           description: <em>array of fan-out queries</em><br>contains related search queries derived from the main query to provide a more comprehensive response
+          nullable: true
+        search_results:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/SearchResults'
+            nullable: true
+          description: <em>array of search results</em><br>contains objects with search results relevant to the user query and model's response
           nullable: true
     AiOptimizationPerplexityLlmResponsesLiveTaskInfo:
       type: object
@@ -67400,7 +67508,7 @@ components:
           type: string
           description: '<em>date and time when the result was published</em><br>in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”<br>example:<br><code class="long-string">2019-11-15 12:57:46 +00:00</code>'
           nullable: true
-    SearchResults:
+    ItemsSearchResults:
       type: object
       properties:
         description:
@@ -67487,7 +67595,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/SearchResults'
+              - $ref: '#/components/schemas/ItemsSearchResults'
             nullable: true
           description: '<em>array of search results</em><br>all web search outputs the model retrieved when looking up information, including duplicates and unused entries<br><strong>Note:</strong> available only for <code>chat_gpt</code>'
           nullable: true
@@ -70297,8 +70405,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     OnPageIdListResultInfo:
@@ -73982,7 +74090,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/BaseOnPageResourceItem'
+              - $ref: '#/components/schemas/OnPageHtmlResourceItem'
             nullable: true
           description: items array
           nullable: true
@@ -74459,8 +74567,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     ContentAnalysisIdListResultInfo:
@@ -75800,8 +75908,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     MerchantIdListResultInfo:
@@ -80303,8 +80411,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     AppDataIdListResultInfo:
@@ -83731,8 +83839,8 @@ components:
           description: '<em>include task metadata in the respond</em><br>optional field<br>default value: <code>false</code>'
           nullable: true
       example:
-        - datetime_from: '2026-10-06 08:39:25'
-          datetime_to: '2026-10-16 08:39:25'
+        - datetime_from: '2026-10-20 06:52:48'
+          datetime_to: '2026-10-30 06:52:48'
           limit: 10
           include_metadata: true
     BusinessDataIdListResultInfo:
@@ -91643,7 +91751,7 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixDataInfo'
           nullable: true
-    AppendixDayStatisticsDataInfo:
+    AppendixStatisticsRatesDataInfo:
       type: object
       properties:
         serp:
@@ -91763,138 +91871,18 @@ components:
           type: string
           description: <em>time period for grouping</em><br><code>day</code>_in the yyyy-MM-dd format<br><code>minute</code>_in the yyyy-MM-dd HH:mm formatn
           nullable: true
-    AppendixMinuteStatisticsRatesData:
-      type: object
-      properties:
-        serp:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixSerpDaysRatesDataInfo'
-          nullable: true
-        total:
-          type: number
-          description: <em>total amount of money deposited to your account</em>
-          format: double
-          nullable: true
-        total_serp:
-          type: number
-          format: double
-          nullable: true
-        keywords_data:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordsDataDataInfo'
-          nullable: true
-        total_keywords_data:
-          type: number
-          format: double
-          nullable: true
-        appendix:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixAppendixDaysRatesDataInfo'
-          nullable: true
-        total_appendix:
-          type: number
-          format: double
-          nullable: true
-        dataforseo_labs:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixDataforseoLabsLimitsRatesDataInfo'
-          nullable: true
-        total_dataforseo_labs:
-          type: number
-          format: double
-          nullable: true
-        domain_analytics:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixDomainAnalyticsLimitsRatesDataInfo'
-          nullable: true
-        total_domain_analytics:
-          type: number
-          format: double
-          nullable: true
-        merchant:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixMerchantLimitsRatesDataInfo'
-          nullable: true
-        total_merchant:
-          type: number
-          format: double
-          nullable: true
-        on_page:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixOnPageLimitsRatesDataInfo'
-          nullable: true
-        total_on_page:
-          type: number
-          format: double
-          nullable: true
-        business_data:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixBusinessDataLimitsRatesDataInfo'
-          nullable: true
-        total_business_data:
-          type: number
-          format: double
-          nullable: true
-        backlinks:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixBacklinksLimitsRatesDataInfo'
-          nullable: true
-        total_backlinks:
-          type: number
-          format: double
-          nullable: true
-        app_data:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixAppDataLimitsRatesDataInfo'
-          nullable: true
-        total_app_data:
-          type: number
-          format: double
-          nullable: true
-        content_analysis:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixContentAnalysisLimitsRatesDataInfo'
-          nullable: true
-        total_content_analysis:
-          type: number
-          format: double
-          nullable: true
-        ai_optimization:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixAiOptimizationLimitsRatesDataInfo'
-          nullable: true
-        total_ai_optimization:
-          type: number
-          format: double
-          nullable: true
-        value:
-          type: string
-          description: <em>time period for grouping</em><br><code>day</code>_in the yyyy-MM-dd format<br><code>minute</code>_in the yyyy-MM-dd HH:mm formatn
-          nullable: true
-    AppendixStatisticsRatesData:
+    AppendixStatisticsDataInfo:
       type: object
       properties:
         day:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixDayStatisticsDataInfo'
+            - $ref: '#/components/schemas/AppendixStatisticsRatesDataInfo'
           nullable: true
         minute:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixMinuteStatisticsRatesData'
+            - $ref: '#/components/schemas/AppendixStatisticsRatesDataInfo'
           nullable: true
     AppendixRatesData:
       type: object
@@ -91908,7 +91896,7 @@ components:
         statistics:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixStatisticsRatesData'
+            - $ref: '#/components/schemas/AppendixStatisticsDataInfo'
           description: <em>statisctics for API calls</em>
           nullable: true
     AppendixLimitsMoneyData:
@@ -91923,19 +91911,6 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixDataInfo'
-          nullable: true
-    AppendixStatisticsMoneyData:
-      type: object
-      properties:
-        day:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixDayStatisticsDataInfo'
-          nullable: true
-        minute:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixDayStatisticsDataInfo'
           nullable: true
     AppendixMoneyData:
       type: object
@@ -91959,7 +91934,7 @@ components:
         statistics:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixStatisticsMoneyData'
+            - $ref: '#/components/schemas/AppendixStatisticsDataInfo'
           description: <em>statistics of your spending</em>
           nullable: true
     AppendixPriorityTasksReadyKeywordsDataPriceDataInfo:
@@ -93803,25 +93778,6 @@ components:
                 nullable: true
               description: <em>array of tasks</em>
               nullable: true
-    DataLabsPodcastsSerpElementItem:
-      type: object
-      allOf:
-        - type: object
-          oneOf:
-            - $ref: '#/components/schemas/BaseDataforseoLabsApiElementItem'
-          nullable: true
-        - type: object
-          properties:
-            items:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/PodcastsElement'
-                nullable: true
-              description: historical SERPs and related data found in the database
-              nullable: true
-      deprecated: true
     DataLabsVisualStoriesSerpElementItem:
       type: object
       allOf:
